@@ -2,7 +2,7 @@
 
 > Automatically updated research paper collection organized by reading status
 
-![Papers](https://img.shields.io/badge/Papers-10-blue) ![Folders](https://img.shields.io/badge/Folders-4-green) ![Updated](https://img.shields.io/badge/Updated-2025-08-19-orange)
+![Papers](https://img.shields.io/badge/Papers-10-blue) ![Folders](https://img.shields.io/badge/Folders-4-green) ![Updated](https://img.shields.io/badge/Updated-2025_08_19-orange)
 
 ## 📊 Quick Stats
 
