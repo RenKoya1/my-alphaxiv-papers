@@ -67,7 +67,7 @@ try {
       return;
     }
 
-    md += `<details>\n<summary><strong>${folder.papers.length} papers</strong> - Click to expand</summary>\n\n`;
+    md += `<details open>\n<summary><strong>${folder.papers.length} papers</strong> - Click to expand</summary>\n\n`;
 
     folder.papers.forEach((paper, index) => {
       const details = paper.details;
