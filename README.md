@@ -5,7 +5,7 @@ A TypeScript project for managing and formatting research paper collections.
 ## 📖 Quick Links
 
 - 📂 **[View Research Papers Collection](./FOLDERS.md)** - Browse all organized papers by folder
-- 📊 [Statistics](#statistics) - Overview of paper counts and folders
+- 📊 **[View Statistics](./FOLDERS.md#-quick-stats)** - Overview of paper counts and folders
 
 ## Features
 
