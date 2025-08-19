@@ -36,9 +36,10 @@ try {
   md += `> Automatically updated research paper collection organized by reading status\n\n`;
   md += `![Papers](https://img.shields.io/badge/Papers-${totalPapers}-blue) `;
   md += `![Folders](https://img.shields.io/badge/Folders-${parsed.data.length}-green) `;
-  md += `![Updated](https://img.shields.io/badge/Updated-${
-    new Date().toISOString().split("T")[0]
-  }-orange)\n\n`;
+  md += `![Updated](https://img.shields.io/badge/Updated-${new Date()
+    .toISOString()
+    .split("T")[0]
+    .replace(/-/g, "_")}-orange)\n\n`;
 
   // 統計情報を上部に移動
   md += `## 📊 Quick Stats\n\n`;
