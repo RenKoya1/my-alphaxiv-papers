@@ -1,88 +1,620 @@
 {
-    "data": [
+  "data": [
+    {
+      "_id": "6851b878e4d7cd843caec1c4",
+      "user_id": "6851b878e4d7cd843caec1c8",
+      "name": "Want to read",
+      "type": "default-to-read",
+      "order": 4,
+      "papers": [],
+      "created_at": "2025-06-17T18:48:24.772Z",
+      "updated_at": "2025-06-17T18:48:24.772Z",
+      "id": "01977f38-97c4-7d7c-8f95-c4923289002e"
+    },
+    {
+      "_id": "6851b878e4d7cd843caec1c5",
+      "user_id": "6851b878e4d7cd843caec1c8",
+      "name": "Reading",
+      "type": "default-reading",
+      "order": 3,
+      "papers": [
         {
-            "_id": "6851b878e4d7cd843caec1c4",
-            "user_id": "6851b878e4d7cd843caec1c8",
-            "name": "Want to read",
-            "type": "default-to-read",
-            "order": 4,
-            "papers": [],
-            "created_at": "2025-06-17T18:48:24.772Z",
-            "updated_at": "2025-06-17T18:48:24.772Z",
-            "id": "01977f38-97c4-7d7c-8f95-c4923289002e"
-        },
-        {
-            "_id": "6851b878e4d7cd843caec1c5",
-            "user_id": "6851b878e4d7cd843caec1c8",
-            "name": "Reading",
-            "type": "default-reading",
-            "order": 3,
-            "papers": [
-                {
-                    "paper_id": "68a2825700372a33db1e86f6",
-                    "added_at": "2025-08-19T00:01:00.140Z",
-                    "details": {
-                        "_id": "68a2825700372a33db1e86f6",
-                        "subcategories": [
-                            "cs.CV"
-                        ],
-                        "citation": {
-                            "bibtex": "@misc{chen2025thymethinkbeyond,\n      title={Thyme: Think Beyond Images},\n      author={Wei Chen and Fan Yang and Liang Wang and Kaibing Chen and Bin Wen and Tianke Zhang and Changyi Liu and Guorui Zhou and Yi-Fan Zhang and Chaoyou Fu and Zhang Zhang and Xiao Hu and Xingyu Lu and Tingting Gao and Shukang Yin and Kaiyu Tang and Jiankang Chen and Haojie Ding and Kaiyu Jiang and Haonan Fan},\n      year={2025},\n      eprint={2508.11630},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2508.11630},\n}"
-                        },
-                        "organizationInfo": [
-                            {
-                                "_id": "67be6376aa92218ccd8b0f6f",
-                                "name": "Tsinghua University",
-                                "aliases": [],
-                                "image": "images/organizations/tsinghua.png"
-                            },
-                            {
-                                "_id": "67be6376aa92218ccd8b0f8c",
-                                "name": "Nanjing University",
-                                "aliases": [],
-                                "image": "images/organizations/nanjing.png"
-                            }
-                        ],
-                        "id": "68a2825700372a33db1e86f6",
-                        "paper_id": "2508.11630",
-                        "title": "Thyme: Think Beyond Images",
-                        "abstract": "Following OpenAI's introduction of the \"thinking with images\" concept, recent efforts have explored stimulating the use of visual information in the reasoning process to enhance model performance in perception and reasoning tasks...",
-                        "authors": [
-                            "Wei Chen",
-                            "Fan Yang",
-                            "Liang Wang"
-                        ],
-                        "publication_date": "2025-08-15T17:59:49.000Z",
-                        "imageURL": "image/2508.11630v1.png",
-                        "public_total_votes": 27
-                    }
-                }
+          "paper_id": "68a2825700372a33db1e86f6",
+          "added_at": "2025-08-19T00:01:00.140Z",
+          "details": {
+            "_id": "68a2825700372a33db1e86f6",
+            "subcategories": [
+              "cs.CV"
             ],
-            "created_at": "2025-06-17T18:48:24.772Z",
-            "updated_at": "2025-06-17T18:48:24.772Z",
-            "id": "01977f38-97c4-74ae-9282-303c7cdbd3d0"
+            "citation": {
+              "bibtex": "@misc{chen2025thymethinkbeyond,\n      title={Thyme: Think Beyond Images},\n      author={Wei Chen and Fan Yang and Liang Wang and Kaibing Chen and Bin Wen and Tianke Zhang and Changyi Liu and Guorui Zhou and Yi-Fan Zhang and Chaoyou Fu and Zhang Zhang and Xiao Hu and Xingyu Lu and Tingting Gao and Shukang Yin and Kaiyu Tang and Jiankang Chen and Haojie Ding and Kaiyu Jiang and Haonan Fan},\n      year={2025},\n      eprint={2508.11630},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2508.11630},\n}"
+            },
+            "organizationInfo": [
+              {
+                "_id": "67be6376aa92218ccd8b0f6f",
+                "name": "Tsinghua University",
+                "aliases": [],
+                "image": "images/organizations/tsinghua.png"
+              },
+              {
+                "_id": "67be6376aa92218ccd8b0f8c",
+                "name": "Nanjing University",
+                "aliases": [],
+                "image": "images/organizations/nanjing.png"
+              },
+              {
+                "_id": "67be6377aa92218ccd8b1016",
+                "name": "University of Science and Technology of China",
+                "aliases": []
+              },
+              {
+                "_id": "68661c8f2dac261d0fc6034a",
+                "name": "Chinese Academy of Sciences Institute of Automation",
+                "aliases": []
+              },
+              {
+                "_id": "68a28263773bbee4a9992e13",
+                "name": "Kwai Keye",
+                "aliases": []
+              }
+            ],
+            "id": "68a2825700372a33db1e86f6",
+            "paper_id": "2508.11630",
+            "title": "Thyme: Think Beyond Images",
+            "abstract": "Following OpenAI's introduction of the ``thinking with images'' concept, recent efforts have explored stimulating the use of visual information in the reasoning process to enhance model performance in perception and reasoning tasks. However, to the best of our knowledge, no open-source work currently offers a feature set as rich as proprietary models (O3), which can perform diverse image manipulations and simultaneously enhance logical reasoning capabilities through code. In this paper, we make a preliminary attempt in this direction by introducing Thyme (Think Beyond Images), a novel paradigm for enabling MLLMs to transcend existing ``think with images'' approaches by autonomously generating and executing diverse image processing and computational operations via executable code. This approach not only facilitates a rich, on-the-fly set of image manipulations (e.g., cropping, rotation, contrast enhancement) but also allows for mathematical computations, all while maintaining high autonomy in deciding when and how to apply these operations. We activate this capability through a two-stage training strategy: an initial SFT on a curated dataset of 500K samples to teach code generation, followed by a RL phase to refine decision-making. For the RL stage, we manually collect and design high-resolution question-answer pairs to increase the learning difficulty, and we propose GRPO-ATS (Group Relative Policy Optimization with Adaptive Temperature Sampling), an algorithm that applies distinct temperatures to text and code generation to balance reasoning exploration with code execution precision. We conduct extensive experimental analysis and ablation studies. Comprehensive evaluations on nearly 20 benchmarks show that Thyme yields significant and consistent performance gains, particularly in challenging high-resolution perception and complex reasoning tasks.",
+            "authors": [
+              "Wei Chen",
+              "Fan Yang",
+              "Liang Wang",
+              "Kaibing Chen",
+              "Bin Wen",
+              "Tianke Zhang",
+              "Changyi Liu",
+              "Guorui Zhou",
+              "Yi-Fan Zhang",
+              "Chaoyou Fu",
+              "Zhang Zhang",
+              "Xiao Hu",
+              "Xingyu Lu",
+              "Tingting Gao",
+              "Shukang Yin",
+              "Kaiyu Tang",
+              "Jiankang Chen",
+              "Haojie Ding",
+              "Kaiyu Jiang",
+              "Haonan Fan"
+            ],
+            "publication_date": "2025-08-15T17:59:49.000Z",
+            "imageURL": "image/2508.11630v1.png",
+            "public_total_votes": 27
+          }
         },
         {
-            "_id": "6851b878e4d7cd843caec1c6",
-            "user_id": "6851b878e4d7cd843caec1c8",
-            "name": "Completed",
-            "type": "default-completed",
-            "order": 2,
-            "papers": [],
-            "created_at": "2025-06-17T18:48:24.772Z",
-            "updated_at": "2025-06-17T18:48:24.772Z",
-            "id": "01977f38-97c4-7640-a7af-4b539f8bc590"
+          "paper_id": "689e8dcc6bc81f8d09d6515d",
+          "added_at": "2025-08-19T00:17:19.936Z",
+          "details": {
+            "_id": "689e8dcc6bc81f8d09d6515d",
+            "subcategories": [
+              "cs.CL"
+            ],
+            "citation": {
+              "bibtex": "@misc{zhang2025ssrlselfsearchreinforcement,\n      title={SSRL: Self-Search Reinforcement Learning},\n      author={Yuchen Zhang and Gang Chen and Ning Ding and Yuchen Fan and Xinwei Long and Kaiyan Zhang and Bowen Zhou and Lei Bai and Xuekai Zhu and Bingning Wang and Yu Fu and Che Jiang and Yuxin Zuo and Cheng Huang and Yanxu Chen and Heng Zhou and Li Kang and Zhizhou He},\n      year={2025},\n      eprint={2508.10874},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2508.10874},\n}"
+            },
+            "organizationInfo": [
+              {
+                "_id": "67be6376aa92218ccd8b0f6f",
+                "name": "Tsinghua University",
+                "aliases": [],
+                "image": "images/organizations/tsinghua.png"
+              },
+              {
+                "_id": "67be6376aa92218ccd8b0f7e",
+                "name": "Shanghai Jiao Tong University",
+                "aliases": []
+              },
+              {
+                "_id": "67be6377aa92218ccd8b0fdb",
+                "name": "University College London",
+                "aliases": []
+              },
+              {
+                "_id": "67be6377aa92218ccd8b1019",
+                "name": "Shanghai AI Laboratory",
+                "aliases": []
+              },
+              {
+                "_id": "67be6611aa92218ccd8b6088",
+                "name": "WeChat AI",
+                "aliases": []
+              },
+              {
+                "_id": "689e8dd1f429a9a350b42f2a",
+                "name": "CSCEC Third Bureau",
+                "aliases": []
+              }
+            ],
+            "id": "689e8dcc6bc81f8d09d6515d",
+            "paper_id": "2508.10874",
+            "title": "SSRL: Self-Search Reinforcement Learning",
+            "abstract": "We investigate the potential of large language models (LLMs) to serve as efficient simulators for agentic search tasks in reinforcement learning (RL), thereby reducing dependence on costly interactions with external search engines. To this end, we first quantify the intrinsic search capability of LLMs via structured prompting and repeated sampling, which we term Self-Search. Our results reveal that LLMs exhibit strong scaling behavior with respect to the inference budget, achieving high pass@k on question-answering benchmarks, including the challenging BrowseComp task. Building on these observations, we introduce Self-Search RL (SSRL), which enhances LLMs' Self-Search capability through format-based and rule-based rewards. SSRL enables models to iteratively refine their knowledge utilization internally, without requiring access to external tools. Empirical evaluations demonstrate that SSRL-trained policy models provide a cost-effective and stable environment for search-driven RL training, reducing reliance on external search engines and facilitating robust sim-to-real transfer. We draw the following conclusions: 1) LLMs possess world knowledge that can be effectively elicited to achieve high performance; 2) SSRL demonstrates the potential of leveraging internal knowledge to reduce hallucination; 3) SSRL-trained models integrate seamlessly with external search engines without additional effort. Our findings highlight the potential of LLMs to support more scalable RL agent training.",
+            "authors": [
+              "Yuchen Zhang",
+              "Gang Chen",
+              "Ning Ding",
+              "Yuchen Fan",
+              "Xinwei Long",
+              "Kaiyan Zhang",
+              "Bowen Zhou",
+              "Lei Bai",
+              "Xuekai Zhu",
+              "Bingning Wang",
+              "Yu Fu",
+              "Che Jiang",
+              "Yuxin Zuo",
+              "Cheng Huang",
+              "Yanxu Chen",
+              "Heng Zhou",
+              "Li Kang",
+              "Zhizhou He"
+            ],
+            "publication_date": "2025-08-14T17:46:01.000Z",
+            "imageURL": "image/2508.10874v1.png",
+            "public_total_votes": 46
+          }
         },
         {
-            "_id": "6851b878e4d7cd843caec1c7",
-            "user_id": "6851b878e4d7cd843caec1c8",
-            "name": "My publications",
-            "type": "default-publications",
-            "order": 1,
-            "papers": [],
-            "created_at": "2025-06-17T18:48:24.772Z",
-            "updated_at": "2025-06-17T18:48:24.772Z",
-            "id": "01977f38-97c4-7c06-95ab-16842aa425c9"
+          "paper_id": "689e93586bc81f8d09d651dd",
+          "added_at": "2025-08-18T23:53:29.676Z",
+          "details": {
+            "_id": "689e93586bc81f8d09d651dd",
+            "subcategories": [
+              "cs.CV",
+              "cs.LG"
+            ],
+            "citation": {
+              "bibtex": "@misc{jégou2025dinov3,\n      title={DINOv3},\n      author={Hervé Jégou and Julien Mairal and Piotr Bojanowski and Francisco Massa and Jianyuan Wang and Maxime Oquab and Timothée Darcet and Théo Moutakanni and Marc Szafraniec and Vasil Khalidov and Daniel Haziza and Patrick Labatut and Andrea Vedaldi and Oriane Siméoni and Camille Couprie and Huy V. Vo and Luca Wehrstedt and Michaël Ramamonjisoa and Maximilian Seitzer and Cijo Jose and Federico Baldassarre and Jamie Tolan and John Brandt and Claire Roberts and Seungeun Yi and Leonel Sentana},\n      year={2025},\n      eprint={2508.10104},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2508.10104},\n}"
+            },
+            "organizationInfo": [
+              {
+                "_id": "67be637caa92218ccd8b120e",
+                "name": "Inria",
+                "aliases": []
+              },
+              {
+                "_id": "67be6653aa92218ccd8b6652",
+                "name": "Meta AI Research",
+                "aliases": []
+              },
+              {
+                "_id": "689e936585c754a102bf8c16",
+                "name": "WRI",
+                "aliases": []
+              }
+            ],
+            "id": "689e93586bc81f8d09d651dd",
+            "paper_id": "2508.10104",
+            "title": "DINOv3",
+            "abstract": "Self-supervised learning holds the promise of eliminating the need for manual data annotation, enabling models to scale effortlessly to massive datasets and larger architectures. By not being tailored to specific tasks or domains, this training paradigm has the potential to learn visual representations from diverse sources, ranging from natural to aerial images -- using a single algorithm. This technical report introduces DINOv3, a major milestone toward realizing this vision by leveraging simple yet effective strategies. First, we leverage the benefit of scaling both dataset and model size by careful data preparation, design, and optimization. Second, we introduce a new method called Gram anchoring, which effectively addresses the known yet unsolved issue of dense feature maps degrading during long training schedules. Finally, we apply post-hoc strategies that further enhance our models' flexibility with respect to resolution, model size, and alignment with text. As a result, we present a versatile vision foundation model that outperforms the specialized state of the art across a broad range of settings, without fine-tuning. DINOv3 produces high-quality dense features that achieve outstanding performance on various vision tasks, significantly surpassing previous self- and weakly-supervised foundation models. We also share the DINOv3 suite of vision models, designed to advance the state of the art on a wide spectrum of tasks and data by providing scalable solutions for diverse resource constraints and deployment scenarios.",
+            "authors": [
+              "Hervé Jégou",
+              "Julien Mairal",
+              "Piotr Bojanowski",
+              "Francisco Massa",
+              "Jianyuan Wang",
+              "Maxime Oquab",
+              "Timothée Darcet",
+              "Théo Moutakanni",
+              "Marc Szafraniec",
+              "Vasil Khalidov",
+              "Daniel Haziza",
+              "Patrick Labatut",
+              "Andrea Vedaldi",
+              "Oriane Siméoni",
+              "Camille Couprie",
+              "Huy V. Vo",
+              "Luca Wehrstedt",
+              "Michaël Ramamonjisoa",
+              "Maximilian Seitzer",
+              "Cijo Jose",
+              "Federico Baldassarre",
+              "Jamie Tolan",
+              "John Brandt",
+              "Claire Roberts",
+              "Seungeun Yi",
+              "Leonel Sentana"
+            ],
+            "publication_date": "2025-08-13T18:00:55.000Z",
+            "imageURL": "image/2508.10104v1.png",
+            "public_total_votes": 125
+          }
+        },
+        {
+          "paper_id": "689c05a3afc9da4145a2a0c8",
+          "added_at": "2025-08-15T05:43:43.190Z",
+          "details": {
+            "_id": "689c05a3afc9da4145a2a0c8",
+            "subcategories": [
+              "cs.RO",
+              "cs.MA"
+            ],
+            "citation": {
+              "bibtex": "@misc{li2025deepfleetmultiagentfoundation,\n      title={DeepFleet: Multi-Agent Foundation Models for Mobile Robots},\n      author={Ang Li and Scott Niekum and Kyle O'Brien and Usman A. Khan and Joseph W. Durham and Federico Pecora and Sriram Siva and Ameya Agaskar and Brianna Gallo Sarker and Dino Kirouani and William Pickering and Charles Kekeh and Alicia Chua and Mayur Nemade and Charun Thattai and Jiaming Di and Isaac Iyengar and Ramya Dharoor and Jimmy Erskine and Tamir Hegazy},\n      year={2025},\n      eprint={2508.08574},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2508.08574},\n}"
+            },
+            "organizationInfo": [
+              {
+                "_id": "67be64f2aa92218ccd8b46e9",
+                "name": "Amazon Robotics",
+                "aliases": []
+              }
+            ],
+            "id": "689c05a3afc9da4145a2a0c8",
+            "paper_id": "2508.08574",
+            "title": "DeepFleet: Multi-Agent Foundation Models for Mobile Robots",
+            "abstract": "We introduce DeepFleet, a suite of foundation models designed to support coordination and planning for large-scale mobile robot fleets. These models are trained on fleet movement data, including robot positions, goals, and interactions, from hundreds of thousands of robots in Amazon warehouses worldwide. DeepFleet consists of four architectures that each embody a distinct inductive bias and collectively explore key points in the design space for multi-agent foundation models: the robot-centric (RC) model is an autoregressive decision transformer operating on neighborhoods of individual robots; the robot-floor (RF) model uses a transformer with cross-attention between robots and the warehouse floor; the image-floor (IF) model applies convolutional encoding to a multi-channel image representation of the full fleet; and the graph-floor (GF) model combines temporal attention with graph neural networks for spatial relationships. In this paper, we describe these models and present our evaluation of the impact of these design choices on prediction task performance. We find that the robot-centric and graph-floor models, which both use asynchronous robot state updates and incorporate the localized structure of robot interactions, show the most promise. We also present experiments that show that these two models can make effective use of larger warehouses operation datasets as the models are scaled up.",
+            "authors": [
+              "Ang Li",
+              "Scott Niekum",
+              "Kyle O'Brien",
+              "Usman A. Khan",
+              "Joseph W. Durham",
+              "Federico Pecora",
+              "Sriram Siva",
+              "Ameya Agaskar",
+              "Brianna Gallo Sarker",
+              "Dino Kirouani",
+              "William Pickering",
+              "Charles Kekeh",
+              "Alicia Chua",
+              "Mayur Nemade",
+              "Charun Thattai",
+              "Jiaming Di",
+              "Isaac Iyengar",
+              "Ramya Dharoor",
+              "Jimmy Erskine",
+              "Tamir Hegazy"
+            ],
+            "publication_date": "2025-08-12T02:19:15.000Z",
+            "imageURL": "image/2508.08574v1.png",
+            "public_total_votes": 7
+          }
+        },
+        {
+          "paper_id": "689559d617fe5423a59ee670",
+          "added_at": "2025-08-10T14:37:26.104Z",
+          "details": {
+            "_id": "689559d617fe5423a59ee670",
+            "subcategories": [
+              "cs.LG"
+            ],
+            "citation": {
+              "bibtex": "@misc{yang2025generalizationsftreinforcement,\n      title={On the Generalization of SFT: A Reinforcement Learning Perspective with Reward Rectification},\n      author={Ming-Hsuan Yang and Xinyu Ye and Lu Qi and Xu Yang and Zhou Ziheng and Wenbo Zhu and Yizhou Zhou and Xinting Hu and Yongliang Wu and Yingzhe Peng},\n      year={2025},\n      eprint={2508.05629},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2508.05629},\n}"
+            },
+            "organizationInfo": [
+              {
+                "_id": "67be6376aa92218ccd8b0f7e",
+                "name": "Shanghai Jiao Tong University",
+                "aliases": []
+              },
+              {
+                "_id": "67be6376aa92218ccd8b0f83",
+                "name": "UC Berkeley",
+                "aliases": [
+                  "University of California, Berkeley",
+                  "UC-Berkeley",
+                  "Simons Institute for the Theory of Computing, University of California, Berkeley",
+                  "The Simons Institute for the Theory of Computing at UC Berkeley"
+                ],
+                "image": "images/organizations/berkeley.png"
+              },
+              {
+                "_id": "67be6377aa92218ccd8b1034",
+                "name": "Wuhan University",
+                "aliases": []
+              },
+              {
+                "_id": "67be6378aa92218ccd8b1096",
+                "name": "University of California, Los Angeles",
+                "aliases": []
+              },
+              {
+                "_id": "67be6379aa92218ccd8b10c5",
+                "name": "Nanyang Technological University",
+                "aliases": []
+              },
+              {
+                "_id": "67be6379aa92218ccd8b10d8",
+                "name": "Southeast University",
+                "aliases": []
+              },
+              {
+                "_id": "67be637caa92218ccd8b11de",
+                "name": "University of California, Merced",
+                "aliases": []
+              }
+            ],
+            "id": "689559d617fe5423a59ee670",
+            "paper_id": "2508.05629",
+            "title": "On the Generalization of SFT: A Reinforcement Learning Perspective with Reward Rectification",
+            "abstract": "We present a simple yet theoretically motivated improvement to Supervised Fine-Tuning (SFT) for the Large Language Model (LLM), addressing its limited generalization compared to reinforcement learning (RL). Through mathematical analysis, we reveal that standard SFT gradients implicitly encode a problematic reward structure that may severely restrict the generalization capabilities of model. To rectify this, we propose Dynamic Fine-Tuning (DFT), stabilizing gradient updates for each token by dynamically rescaling the objective function with the probability of this token. Remarkably, this single-line code change significantly outperforms standard SFT across multiple challenging benchmarks and base models, demonstrating greatly improved generalization. Additionally, our approach shows competitive results in offline RL settings, offering an effective yet simpler alternative. This work bridges theoretical insight and practical solutions, substantially advancing SFT performance. The code will be available at this https URL.",
+            "authors": [
+              "Ming-Hsuan Yang",
+              "Xinyu Ye",
+              "Lu Qi",
+              "Xu Yang",
+              "Zhou Ziheng",
+              "Wenbo Zhu",
+              "Yizhou Zhou",
+              "Xinting Hu",
+              "Yongliang Wu",
+              "Yingzhe Peng"
+            ],
+            "publication_date": "2025-08-07T17:59:04.000Z",
+            "imageURL": "image/2508.05629v1.png",
+            "public_total_votes": 203
+          }
+        },
+        {
+          "paper_id": "6892b22c551f444de8ee7c7b",
+          "added_at": "2025-08-10T15:51:24.029Z",
+          "details": {
+            "_id": "6892b22c551f444de8ee7c7b",
+            "subcategories": [
+              "cs.AI",
+              "cs.LG"
+            ],
+            "citation": {
+              "bibtex": "@misc{yang2025agentlightningtrain,\n      title={Agent Lightning: Train ANY AI Agents with Reinforcement Learning},\n      author={Yuqing Yang and Zilong Wang and Dongsheng Li and Zhiyuan He and Xufang Luo and Siyun Zhao and Luna K. Qiu and Yuge Zhang},\n      year={2025},\n      eprint={2508.03680},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2508.03680},\n}"
+            },
+            "organizationInfo": [
+              {
+                "_id": "67be6379aa92218ccd8b10f6",
+                "name": "Microsoft",
+                "aliases": [
+                  "Microsoft Azure",
+                  "Microsoft GSL",
+                  "Microsoft Corporation",
+                  "Microsoft Research",
+                  "Microsoft Research Asia",
+                  "Microsoft Research Montreal",
+                  "Microsoft Research AI for Science",
+                  "Microsoft India",
+                  "Microsoft Research Redmond",
+                  "Microsoft Spatial AI Lab",
+                  "Microsoft Azure Research",
+                  "Microsoft Research India",
+                  "Microsoft Research AI4Science",
+                  "Microsoft AI for Good Research Lab",
+                  "Microsoft Research Cambridge",
+                  "Microsoft Corporaion"
+                ],
+                "image": "images/organizations/microsoft.png"
+              }
+            ],
+            "id": "6892b22c551f444de8ee7c7b",
+            "paper_id": "2508.03680",
+            "title": "Agent Lightning: Train ANY AI Agents with Reinforcement Learning",
+            "abstract": "We present Agent Lightning, a flexible and extensible framework that enables Reinforcement Learning (RL)-based training of Large Language Models (LLMs) for any AI agent. Unlike existing methods that tightly couple RL training with agent or rely on sequence concatenation with masking, Agent Lightning achieves complete decoupling between agent execution and training, allowing seamless integration with existing agents developed via diverse ways (e.g., using frameworks like LangChain, OpenAI Agents SDK, AutoGen, and building from scratch) with almost ZERO code modifications. By formulating agent execution as Markov decision process, we define an unified data interface and propose a hierarchical RL algorithm, LightningRL, which contains a credit assignment module, allowing us to decompose trajectories generated by ANY agents into training transition. This enables RL to handle complex interaction logic, such as multi-agent scenarios and dynamic workflows. For the system design, we introduce a Training-Agent Disaggregation architecture, and brings agent observability frameworks into agent runtime, providing a standardized agent finetuning interface. Experiments across text-to-SQL, retrieval-augmented generation, and math tool-use tasks demonstrate stable, continuous improvements, showcasing the framework's potential for real-world agent training and deployment.",
+            "authors": [
+              "Yuqing Yang",
+              "Zilong Wang",
+              "Dongsheng Li",
+              "Zhiyuan He",
+              "Xufang Luo",
+              "Siyun Zhao",
+              "Luna K. Qiu",
+              "Yuge Zhang"
+            ],
+            "publication_date": "2025-08-05T17:50:13.000Z",
+            "imageURL": "image/2508.03680v1.png",
+            "public_total_votes": 178
+          }
+        },
+        {
+          "paper_id": "6837d2685142e4a4d6e04928",
+          "added_at": "2025-08-10T17:03:43.400Z",
+          "details": {
+            "_id": "6837d2685142e4a4d6e04928",
+            "subcategories": [
+              "cs.CL"
+            ],
+            "organizationInfo": [
+              {
+                "_id": "67be6376aa92218ccd8b0f6a",
+                "name": "Renmin University of China",
+                "aliases": [],
+                "image": "images/organizations/renmin.png"
+              },
+              {
+                "_id": "67be6376aa92218ccd8b0f7e",
+                "name": "Shanghai Jiao Tong University",
+                "aliases": []
+              },
+              {
+                "_id": "67c0fa359fdf15298df1ddcb",
+                "name": "Research Institute of China Telecom",
+                "aliases": []
+              },
+              {
+                "_id": "67fdc05de6bb3a9c6236d8a6",
+                "name": "MemTensor (Shanghai) Technology Co., Ltd.",
+                "aliases": []
+              }
+            ],
+            "id": "6837d2685142e4a4d6e04928",
+            "paper_id": "2505.22101",
+            "title": "MemOS: An Operating System for Memory-Augmented Generation (MAG) in  Large Language Models",
+            "abstract": "Large Language Models (LLMs) have emerged as foundational infrastructure in\nthe pursuit of Artificial General Intelligence (AGI). Despite their remarkable\ncapabilities in language perception and generation, current LLMs fundamentally\nlack a unified and structured architecture for handling memory. They primarily\nrely on parametric memory (knowledge encoded in model weights) and ephemeral\nactivation memory (context-limited runtime states). While emerging methods like\nRetrieval-Augmented Generation (RAG) incorporate plaintext memory, they lack\nlifecycle management and multi-modal integration, limiting their capacity for\nlong-term knowledge evolution. To address this, we introduce MemOS, a memory\noperating system designed for LLMs that, for the first time, elevates memory to\na first-class operational resource. It builds unified mechanisms for\nrepresentation, organization, and governance across three core memory types:\nparametric, activation, and plaintext. At its core is the MemCube, a\nstandardized memory abstraction that enables tracking, fusion, and migration of\nheterogeneous memory, while offering structured, traceable access across tasks\nand contexts. MemOS establishes a memory-centric execution framework with\nstrong controllability, adaptability, and evolvability. It fills a critical gap\nin current LLM infrastructure and lays the groundwork for continual adaptation,\npersonalized intelligence, and cross-platform coordination in next-generation\nintelligent systems.",
+            "authors": [
+              "Jiawei Yang",
+              "Zhi-Qin John Xu",
+              "Kai Chen",
+              "Tianyi Chen",
+              "Bo Tang",
+              "Hanyu Wang",
+              "Shichao Song",
+              "Qingchen Yu",
+              "Feiyu Xiong",
+              "Zhiyu Li",
+              "Jiahao Huo",
+              "Jihao Zhao",
+              "Simin Niu",
+              "Junpeng Ren",
+              "Ding Chen",
+              "Hongkang Yang",
+              "Zehao Lin",
+              "Chenyang Xi",
+              "Yezhaohui Wang",
+              "Huayi Lai",
+              "Kehang Li",
+              "Zhiqiang Yin"
+            ],
+            "publication_date": "2025-05-28T08:27:12.000Z",
+            "imageURL": "image/2505.22101v1.png",
+            "public_total_votes": 73
+          }
+        },
+        {
+          "paper_id": "681475896543b462f4d596d9",
+          "added_at": "2025-08-10T15:54:43.209Z",
+          "details": {
+            "_id": "681475896543b462f4d596d9",
+            "subcategories": [
+              "cs.CL"
+            ],
+            "organizationInfo": [
+              {
+                "_id": "67be6376aa92218ccd8b0f71",
+                "name": "The Chinese University of Hong Kong",
+                "aliases": [],
+                "image": "images/organizations/chinesehongkong.png"
+              },
+              {
+                "_id": "67be6377aa92218ccd8b100b",
+                "name": "The University of Edinburgh",
+                "aliases": []
+              },
+              {
+                "_id": "67be6379aa92218ccd8b10d2",
+                "name": "HKUST",
+                "aliases": [],
+                "image": "images/organizations/hkust.jpg"
+              },
+              {
+                "_id": "68147d2a2dd9b125510eef69",
+                "name": "Huawei UK R&D Ltd.",
+                "aliases": []
+              }
+            ],
+            "id": "681475896543b462f4d596d9",
+            "paper_id": "2505.00675",
+            "title": "Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future  Directions",
+            "abstract": "Memory is a fundamental component of AI systems, underpinning large language\nmodels (LLMs)-based agents. While prior surveys have focused on memory\napplications with LLMs (e.g., enabling personalized memory in conversational\nagents), they often overlook the atomic operations that underlie memory\ndynamics. In this survey, we first categorize memory representations into\nparametric and contextual forms, and then introduce six fundamental memory\noperations: Consolidation, Updating, Indexing, Forgetting, Retrieval, and\nCompression. We map these operations to the most relevant research topics\nacross long-term, long-context, parametric modification, and multi-source\nmemory. By reframing memory systems through the lens of atomic operations and\nrepresentation types, this survey provides a structured and dynamic perspective\non research, benchmark datasets, and tools related to memory in AI, clarifying\nthe functional interplay in LLMs based agents while outlining promising\ndirections for future research\\footnote{The paper list, datasets, methods and\ntools are available at\n\\href{https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI}{this https URL}.}.",
+            "authors": [
+              "Danna Zheng",
+              "Mirella Lapata",
+              "Jeff Z. Pan",
+              "Kam-Fai Wong",
+              "Zhaowei Wang",
+              "Yiming Du",
+              "Wenyu Huang",
+              "Sebastien Montella"
+            ],
+            "publication_date": "2025-05-27T17:38:40.000Z",
+            "imageURL": "image/2505.00675v2.png",
+            "public_total_votes": 819
+          }
+        },
+        {
+          "paper_id": "68102c2d152d4e7dfe3ec58e",
+          "added_at": "2025-08-10T14:27:19.481Z",
+          "details": {
+            "_id": "68102c2d152d4e7dfe3ec58e",
+            "subcategories": [
+              "cs.CL",
+              "cs.AI"
+            ],
+            "organizationInfo": [],
+            "id": "68102c2d152d4e7dfe3ec58e",
+            "paper_id": "2504.19413",
+            "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+            "abstract": "Large Language Models (LLMs) have demonstrated remarkable prowess in\ngenerating contextually coherent responses, yet their fixed context windows\npose fundamental challenges for maintaining consistency over prolonged\nmulti-session dialogues. We introduce Mem0, a scalable memory-centric\narchitecture that addresses this issue by dynamically extracting,\nconsolidating, and retrieving salient information from ongoing conversations.\nBuilding on this foundation, we further propose an enhanced variant that\nleverages graph-based memory representations to capture complex relational\nstructures among conversational elements. Through comprehensive evaluations on\nLOCOMO benchmark, we systematically compare our approaches against six baseline\ncategories: (i) established memory-augmented systems, (ii) retrieval-augmented\ngeneration (RAG) with varying chunk sizes and k-values, (iii) a full-context\napproach that processes the entire conversation history, (iv) an open-source\nmemory solution, (v) a proprietary model system, and (vi) a dedicated memory\nmanagement platform. Empirical results show that our methods consistently\noutperform all existing memory systems across four question categories:\nsingle-hop, temporal, multi-hop, and open-domain. Notably, Mem0 achieves 26%\nrelative improvements in the LLM-as-a-Judge metric over OpenAI, while Mem0 with\ngraph memory achieves around 2% higher overall score than the base\nconfiguration. Beyond accuracy gains, we also markedly reduce computational\noverhead compared to full-context method. In particular, Mem0 attains a 91%\nlower p95 latency and saves more than 90% token cost, offering a compelling\nbalance between advanced reasoning capabilities and practical deployment\nconstraints. Our findings highlight critical role of structured, persistent\nmemory mechanisms for long-term conversational coherence, paving the way for\nmore reliable and efficient LLM-driven AI agents.",
+            "authors": [
+              "Prateek Chhikara",
+              "Deshraj Yadav",
+              "Taranjeet Singh",
+              "Dev Khant",
+              "Saket Aryan"
+            ],
+            "publication_date": "2025-04-28T01:46:35.000Z",
+            "imageURL": "image/2504.19413v1.png",
+            "public_total_votes": 658
+          }
+        },
+        {
+          "paper_id": "673ccead7d2b7ed9dd51e076",
+          "added_at": "2025-08-10T13:46:35.607Z",
+          "details": {
+            "_id": "673ccead7d2b7ed9dd51e076",
+            "subcategories": [
+              "cs.CV"
+            ],
+            "organizationInfo": [
+              {
+                "_id": "67be6376aa92218ccd8b0f9b",
+                "name": "Google DeepMind",
+                "aliases": [
+                  "DeepMind",
+                  "Google Deepmind",
+                  "Deepmind",
+                  "Google DeepMind Robotics"
+                ],
+                "image": "images/organizations/deepmind.png"
+              }
+            ],
+            "id": "673ccead7d2b7ed9dd51e076",
+            "paper_id": "2402.05861",
+            "title": "Memory Consolidation Enables Long-Context Video Understanding",
+            "abstract": "Most transformer-based video encoders are limited to short temporal contexts due to their quadratic complexity. While various attempts have been made to extend this context, this has often come at the cost of both conceptual and computational complexity. We propose to instead re-purpose existing pre-trained video transformers by simply fine-tuning them to attend to memories derived non-parametrically from past activations. By leveraging redundancy reduction, our memory-consolidated vision transformer (MC-ViT) effortlessly extends its context far into the past and exhibits excellent scaling behavior when learning from longer videos. In doing so, MC-ViT sets a new state-of-the-art in long-context video understanding on EgoSchema, Perception Test, and Diving48, outperforming methods that benefit from orders of magnitude more parameters.",
+            "authors": [
+              "Rahma Chaabouni",
+              "Yuge Shi",
+              "Skanda Koppula",
+              "Ivana Balažević",
+              "Pinelopi Papalampidi",
+              "Olivier J. Hénaff"
+            ],
+            "publication_date": "2024-05-31T15:22:58.000Z",
+            "activity_score": 0,
+            "imageURL": "image/2402.05861v2.png",
+            "public_total_votes": 10
+          }
         }
-    ]
+      ],
+      "created_at": "2025-06-17T18:48:24.772Z",
+      "updated_at": "2025-06-17T18:48:24.772Z",
+      "id": "01977f38-97c4-74ae-9282-303c7cdbd3d0"
+    },
+    {
+      "_id": "6851b878e4d7cd843caec1c6",
+      "user_id": "6851b878e4d7cd843caec1c8",
+      "name": "Completed",
+      "type": "default-completed",
+      "order": 2,
+      "papers": [],
+      "created_at": "2025-06-17T18:48:24.772Z",
+      "updated_at": "2025-06-17T18:48:24.772Z",
+      "id": "01977f38-97c4-7640-a7af-4b539f8bc590"
+    },
+    {
+      "_id": "6851b878e4d7cd843caec1c7",
+      "user_id": "6851b878e4d7cd843caec1c8",
+      "name": "My publications",
+      "type": "default-publications",
+      "order": 1,
+      "papers": [],
+      "created_at": "2025-06-17T18:48:24.772Z",
+      "updated_at": "2025-06-17T18:48:24.772Z",
+      "id": "01977f38-97c4-7c06-95ab-16842aa425c9"
+    }
+  ]
 }
