@@ -20,12 +20,13 @@ jobs:
       - name: Fetch folders from AlphaXiv API
         env:
           TOKEN: ${{ secrets.ALPHAXIV_TOKEN }}
+          USER_ID: ${{ secrets.ALPHAXIV_USER_ID }}
         run: |
           mkdir -p data
           curl -sS \
             -H "Authorization: Bearer $TOKEN" \
             -H "Accept: application/json" \
-            "https://api.alphaxiv.org/v1/users/6851b878e4d7cd843caec1c8/folders" \
+            "https://api.alphaxiv.org/v1/users/$USER_ID/folders" \
             | jq . | tee data/folders.json
 
       - name: Setup Node.js

@@ -27,9 +27,40 @@ npm install
 npm run build
 ```
 
+3. **For GitHub Actions (Required for automatic updates):**
+   - Set up `ALPHAXIV_TOKEN` and `ALPHAXIV_USER_ID` repository secrets (see [Usage](#usage) section for details)
+
 ## Usage
 
-### Format folders to Markdown
+### Automatic Updates (GitHub Actions)
+
+This project includes a GitHub Actions workflow that automatically fetches the latest papers from AlphaXiv API and updates the `FOLDERS.md` file daily.
+
+**🔑 Required Setup:**
+
+1. **Set up AlphaXiv API credentials:**
+
+   - Go to your GitHub repository settings
+   - Navigate to `Settings` → `Secrets and variables` → `Actions`
+   - Click `New repository secret` and add the following secrets:
+
+   **First secret:**
+
+   - Name: `ALPHAXIV_TOKEN`
+   - Value: Your AlphaXiv API token
+   - Click `Add secret`
+
+   **Second secret:**
+
+   - Name: `ALPHAXIV_USER_ID`
+   - Value: Your AlphaXiv user ID
+   - Click `Add secret`
+
+2. **Workflow runs automatically:**
+   - Daily at 00:00 UTC (09:00 JST)
+   - Can also be triggered manually from the Actions tab
+
+### Manual Format
 
 ```bash
 npm run format
