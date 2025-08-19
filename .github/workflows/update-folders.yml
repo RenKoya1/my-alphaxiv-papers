@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "0 0 * * *" # 毎日0時(JST=9時)に実行
 
+permissions:
+  contents: write
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -23,12 +26,12 @@ jobs:
             -H "Authorization: Bearer $TOKEN" \
             -H "Accept: application/json" \
             "https://api.alphaxiv.org/v1/users/6851b878e4d7cd843caec1c8/folders" \
-            | jq . > data/folders.json
+            | jq . | tee data/folders.json
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: Run formatter
         run: |
