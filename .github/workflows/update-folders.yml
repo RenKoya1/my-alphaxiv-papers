@@ -36,7 +36,7 @@ jobs:
       - name: Run formatter
         run: |
           npm install
-          npx ts-node scripts/format.ts
+          npm run format
 
       - name: Commit changes
         run: |

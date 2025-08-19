@@ -1,84 +1,144 @@
 // scripts/format-folders.ts
-import * as fs from 'fs';
-import * as path from 'path';
-import { FoldersData } from '../types';
+import * as fs from "fs";
+import * as path from "path";
+import { FoldersData } from "../types";
+
+// フォルダタイプに対応する絵文字を取得
+function getEmojiForFolderType(type: string): string {
+  const emojiMap: Record<string, string> = {
+    "default-to-read": "📖",
+    "default-reading": "📚",
+    "default-completed": "✅",
+    "default-publications": "🏆",
+  };
+  return emojiMap[type] || "📁";
+}
 
 try {
-  const filePath = path.join(process.cwd(), 'data', 'folders.json');
-  const raw: string = fs.readFileSync(filePath, 'utf-8');
-  
+  const filePath = path.join(process.cwd(), "data", "folders.json");
+  const raw: string = fs.readFileSync(filePath, "utf-8");
+
   if (!raw.trim()) {
-    console.error('❌ folders.json is empty');
+    console.error("❌ folders.json is empty");
     process.exit(1);
   }
-  
+
   const parsed: FoldersData = JSON.parse(raw);
 
+  // 統計情報を事前に計算
+  const totalPapers = parsed.data.reduce(
+    (sum, folder) => sum + folder.papers.length,
+    0
+  );
+
   // フォルダ一覧をMarkdownに変換
-  let md: string = `# 📂 Research Papers Collection\n\n`;
+  let md: string = `# 📚 Research Papers Collection\n\n`;
+  md += `> Automatically updated research paper collection organized by reading status\n\n`;
+  md += `![Papers](https://img.shields.io/badge/Papers-${totalPapers}-blue) `;
+  md += `![Folders](https://img.shields.io/badge/Folders-${parsed.data.length}-green) `;
+  md += `![Updated](https://img.shields.io/badge/Updated-${
+    new Date().toISOString().split("T")[0]
+  }-orange)\n\n`;
+
+  // 統計情報を上部に移動
+  md += `## 📊 Quick Stats\n\n`;
+  md += `| Metric | Count |\n`;
+  md += `|--------|-------|\n`;
+  md += `| 📁 Total Folders | ${parsed.data.length} |\n`;
+  md += `| 📄 Total Papers | ${totalPapers} |\n`;
+
+  parsed.data.forEach((folder) => {
+    if (folder.papers.length > 0) {
+      const emoji = getEmojiForFolderType(folder.type);
+      md += `| ${emoji} ${folder.name} | ${folder.papers.length} |\n`;
+    }
+  });
+  md += `\n---\n\n`;
 
   // フォルダをorder順にソート
   const sortedFolders = parsed.data.sort((a, b) => a.order - b.order);
 
   sortedFolders.forEach((folder) => {
-    md += `## ${folder.name}\n`;
-    md += `**Type:** ${folder.type} | **Papers:** ${folder.papers.length}\n\n`;
-    
+    const emoji = getEmojiForFolderType(folder.type);
+    md += `## ${emoji} ${folder.name}\n\n`;
+
     if (folder.papers.length === 0) {
-      md += `No papers yet.\n\n`;
+      md += `> No papers yet.\n\n`;
       return;
     }
 
-    md += `| Title | Authors | ArXiv ID | Date | Votes | Organizations |\n`;
-    md += `|-------|---------|----------|------|-------|---------------|\n`;
+    md += `<details>\n<summary><strong>${folder.papers.length} papers</strong> - Click to expand</summary>\n\n`;
 
-    folder.papers.forEach((paper) => {
+    folder.papers.forEach((paper, index) => {
       const details = paper.details;
-      
+
       // ArXivのURLを抽出
       const urlMatch = details.citation?.bibtex?.match(/url=\{(.+?)\}/);
-      const url: string = urlMatch?.[1] || `https://arxiv.org/abs/${details.paper_id}`;
-      
+      const url: string =
+        urlMatch?.[1] || `https://arxiv.org/abs/${details.paper_id}`;
+
       // 著者名を短縮（最初の3人まで）
-      const authorsText: string = details.authors.slice(0, 3).join(', ') + 
-        (details.authors.length > 3 ? ' et al.' : '');
-      
+      const authorsText: string =
+        details.authors.slice(0, 3).join(", ") +
+        (details.authors.length > 3 ? " et al." : "");
+
       // 日付をフォーマット
-      const date: string = details.publication_date.split('T')[0];
-      
+      const date: string = details.publication_date.split("T")[0];
+
       // 投票数
-      const votes: string = details.public_total_votes ? details.public_total_votes.toString() : 'N/A';
-      
+      const votes: string = details.public_total_votes
+        ? `${details.public_total_votes} votes`
+        : "No votes";
+
       // 組織名を短縮（最初の2つまで）
-      const orgNames: string = details.organizationInfo
-        .slice(0, 2)
-        .map(org => org.name)
-        .join(', ') + (details.organizationInfo.length > 2 ? ' et al.' : '');
-      
-      md += `| [${details.title}](${url}) | ${authorsText} | ${details.paper_id} | ${date} | ${votes} | ${orgNames || 'N/A'} |\n`;
+      const orgNames: string =
+        details.organizationInfo
+          .slice(0, 2)
+          .map((org) => org.name)
+          .join(", ") + (details.organizationInfo.length > 2 ? " et al." : "");
+
+      md += `### ${index + 1}. [${details.title}](${url})\n\n`;
+      md += `**Authors:** ${authorsText}  \n`;
+      md += `**ArXiv ID:** \`${details.paper_id}\`  \n`;
+      md += `**Published:** ${date}  \n`;
+      md += `**Organizations:** ${orgNames || "N/A"}  \n`;
+      md += `**Votes:** ${votes}  \n`;
+
+      if (details.abstract) {
+        const shortAbstract =
+          details.abstract.length > 200
+            ? details.abstract.substring(0, 200) + "..."
+            : details.abstract;
+        md += `**Abstract:** ${shortAbstract}\n\n`;
+      }
+
+      if (details.subcategories && details.subcategories.length > 0) {
+        md += `**Categories:** ${details.subcategories
+          .map((cat) => `\`${cat}\``)
+          .join(", ")}\n\n`;
+      }
+
+      md += `---\n\n`;
     });
 
-    md += `\n`;
+    md += `</details>\n\n`;
   });
 
-  // 統計情報を追加
-  md += `## 📊 Statistics\n\n`;
-  const totalPapers = parsed.data.reduce((sum, folder) => sum + folder.papers.length, 0);
-  md += `- **Total Folders:** ${parsed.data.length}\n`;
-  md += `- **Total Papers:** ${totalPapers}\n`;
-  
-  parsed.data.forEach(folder => {
-    if (folder.papers.length > 0) {
-      md += `- **${folder.name}:** ${folder.papers.length} papers\n`;
-    }
-  });
+  // フッターに最終更新日時を追加
+  md += `\n---\n\n`;
+  md += `<div align="center">\n\n`;
+  md += `**Last Updated:** ${new Date()
+    .toISOString()
+    .replace("T", " ")
+    .substring(0, 19)} UTC\n\n`;
+  md += `*This file is automatically generated by the [format script](./scripts/format.ts)*\n\n`;
+  md += `</div>\n`;
 
-  fs.writeFileSync('FOLDERS.md', md, 'utf-8');
-  console.log('✅ FOLDERS.md generated successfully');
+  fs.writeFileSync("FOLDERS.md", md, "utf-8");
+  console.log("✅ FOLDERS.md generated successfully");
   console.log(`📁 ${parsed.data.length} folders processed`);
   console.log(`📄 ${totalPapers} papers formatted`);
-
 } catch (error) {
-  console.error('❌ Error:', error);
+  console.error("❌ Error:", error);
   process.exit(1);
 }

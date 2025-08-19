@@ -2,6 +2,11 @@
 
 A TypeScript project for managing and formatting research paper collections.
 
+## 📖 Quick Links
+
+- 📂 **[View Research Papers Collection](./FOLDERS.md)** - Browse all organized papers by folder
+- 📊 [Statistics](#statistics) - Overview of paper counts and folders
+
 ## Features
 
 - 📂 Organize research papers into folders
@@ -11,11 +16,13 @@ A TypeScript project for managing and formatting research paper collections.
 ## Setup
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
 
 2. Build the project:
+
 ```bash
 npm run build
 ```
