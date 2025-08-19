@@ -1,9 +1,11 @@
 {
   "name": "my-research-papers",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A TypeScript project for managing research papers",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
+    "format": "ts-node scripts/format.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/RenKoya1/my-research-papers/issues"
   },
-  "homepage": "https://github.com/RenKoya1/my-research-papers#readme"
+  "homepage": "https://github.com/RenKoya1/my-research-papers#readme",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
 }

@@ -33,7 +33,7 @@ jobs:
       - name: Run formatter
         run: |
           npm install
-          node scripts/format.js
+          npx ts-node scripts/format.ts
 
       - name: Commit changes
         run: |

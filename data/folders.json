@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "_id": "6851b878e4d7cd843caec1c4",
+            "user_id": "6851b878e4d7cd843caec1c8",
+            "name": "Want to read",
+            "type": "default-to-read",
+            "order": 4,
+            "papers": [],
+            "created_at": "2025-06-17T18:48:24.772Z",
+            "updated_at": "2025-06-17T18:48:24.772Z",
+            "id": "01977f38-97c4-7d7c-8f95-c4923289002e"
+        },
+        {
+            "_id": "6851b878e4d7cd843caec1c5",
+            "user_id": "6851b878e4d7cd843caec1c8",
+            "name": "Reading",
+            "type": "default-reading",
+            "order": 3,
+            "papers": [
+                {
+                    "paper_id": "68a2825700372a33db1e86f6",
+                    "added_at": "2025-08-19T00:01:00.140Z",
+                    "details": {
+                        "_id": "68a2825700372a33db1e86f6",
+                        "subcategories": [
+                            "cs.CV"
+                        ],
+                        "citation": {
+                            "bibtex": "@misc{chen2025thymethinkbeyond,\n      title={Thyme: Think Beyond Images},\n      author={Wei Chen and Fan Yang and Liang Wang and Kaibing Chen and Bin Wen and Tianke Zhang and Changyi Liu and Guorui Zhou and Yi-Fan Zhang and Chaoyou Fu and Zhang Zhang and Xiao Hu and Xingyu Lu and Tingting Gao and Shukang Yin and Kaiyu Tang and Jiankang Chen and Haojie Ding and Kaiyu Jiang and Haonan Fan},\n      year={2025},\n      eprint={2508.11630},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2508.11630},\n}"
+                        },
+                        "organizationInfo": [
+                            {
+                                "_id": "67be6376aa92218ccd8b0f6f",
+                                "name": "Tsinghua University",
+                                "aliases": [],
+                                "image": "images/organizations/tsinghua.png"
+                            },
+                            {
+                                "_id": "67be6376aa92218ccd8b0f8c",
+                                "name": "Nanjing University",
+                                "aliases": [],
+                                "image": "images/organizations/nanjing.png"
+                            }
+                        ],
+                        "id": "68a2825700372a33db1e86f6",
+                        "paper_id": "2508.11630",
+                        "title": "Thyme: Think Beyond Images",
+                        "abstract": "Following OpenAI's introduction of the \"thinking with images\" concept, recent efforts have explored stimulating the use of visual information in the reasoning process to enhance model performance in perception and reasoning tasks...",
+                        "authors": [
+                            "Wei Chen",
+                            "Fan Yang",
+                            "Liang Wang"
+                        ],
+                        "publication_date": "2025-08-15T17:59:49.000Z",
+                        "imageURL": "image/2508.11630v1.png",
+                        "public_total_votes": 27
+                    }
+                }
+            ],
+            "created_at": "2025-06-17T18:48:24.772Z",
+            "updated_at": "2025-06-17T18:48:24.772Z",
+            "id": "01977f38-97c4-74ae-9282-303c7cdbd3d0"
+        },
+        {
+            "_id": "6851b878e4d7cd843caec1c6",
+            "user_id": "6851b878e4d7cd843caec1c8",
+            "name": "Completed",
+            "type": "default-completed",
+            "order": 2,
+            "papers": [],
+            "created_at": "2025-06-17T18:48:24.772Z",
+            "updated_at": "2025-06-17T18:48:24.772Z",
+            "id": "01977f38-97c4-7640-a7af-4b539f8bc590"
+        },
+        {
+            "_id": "6851b878e4d7cd843caec1c7",
+            "user_id": "6851b878e4d7cd843caec1c8",
+            "name": "My publications",
+            "type": "default-publications",
+            "order": 1,
+            "papers": [],
+            "created_at": "2025-06-17T18:48:24.772Z",
+            "updated_at": "2025-06-17T18:48:24.772Z",
+            "id": "01977f38-97c4-7c06-95ab-16842aa425c9"
+        }
+    ]
+}
