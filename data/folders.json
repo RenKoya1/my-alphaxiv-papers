@@ -19,152 +19,98 @@
       "order": 3,
       "papers": [
         {
-          "paper_id": "68a2825700372a33db1e86f6",
-          "added_at": "2025-08-19T00:01:00.140Z",
+          "paper_id": "689d4897ea57ba53fca8be98",
+          "added_at": "2025-08-19T01:49:45.033Z",
           "details": {
-            "_id": "68a2825700372a33db1e86f6",
+            "_id": "689d4897ea57ba53fca8be98",
             "subcategories": [
               "cs.CV"
             ],
             "citation": {
-              "bibtex": "@misc{chen2025thymethinkbeyond,\n      title={Thyme: Think Beyond Images},\n      author={Wei Chen and Fan Yang and Liang Wang and Kaibing Chen and Bin Wen and Tianke Zhang and Changyi Liu and Guorui Zhou and Yi-Fan Zhang and Chaoyou Fu and Zhang Zhang and Xiao Hu and Xingyu Lu and Tingting Gao and Shukang Yin and Kaiyu Tang and Jiankang Chen and Haojie Ding and Kaiyu Jiang and Haonan Fan},\n      year={2025},\n      eprint={2508.11630},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2508.11630},\n}"
+              "bibtex": "@misc{li2025seeinglisteningremembering,\n      title={Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory},\n      author={Wei Li and Hang Li and Yuan Lin and Junbo Zhao and Wentao Ye and Lin Long and Yichen He and Yiyuan Pan},\n      year={2025},\n      eprint={2508.09736},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2508.09736},\n}"
             },
             "organizationInfo": [
-              {
-                "_id": "67be6376aa92218ccd8b0f6f",
-                "name": "Tsinghua University",
-                "aliases": [],
-                "image": "images/organizations/tsinghua.png"
-              },
-              {
-                "_id": "67be6376aa92218ccd8b0f8c",
-                "name": "Nanjing University",
-                "aliases": [],
-                "image": "images/organizations/nanjing.png"
-              },
-              {
-                "_id": "67be6377aa92218ccd8b1016",
-                "name": "University of Science and Technology of China",
-                "aliases": []
-              },
-              {
-                "_id": "68661c8f2dac261d0fc6034a",
-                "name": "Chinese Academy of Sciences Institute of Automation",
-                "aliases": []
-              },
-              {
-                "_id": "68a28263773bbee4a9992e13",
-                "name": "Kwai Keye",
-                "aliases": []
-              }
-            ],
-            "id": "68a2825700372a33db1e86f6",
-            "paper_id": "2508.11630",
-            "title": "Thyme: Think Beyond Images",
-            "abstract": "Following OpenAI's introduction of the ``thinking with images'' concept, recent efforts have explored stimulating the use of visual information in the reasoning process to enhance model performance in perception and reasoning tasks. However, to the best of our knowledge, no open-source work currently offers a feature set as rich as proprietary models (O3), which can perform diverse image manipulations and simultaneously enhance logical reasoning capabilities through code. In this paper, we make a preliminary attempt in this direction by introducing Thyme (Think Beyond Images), a novel paradigm for enabling MLLMs to transcend existing ``think with images'' approaches by autonomously generating and executing diverse image processing and computational operations via executable code. This approach not only facilitates a rich, on-the-fly set of image manipulations (e.g., cropping, rotation, contrast enhancement) but also allows for mathematical computations, all while maintaining high autonomy in deciding when and how to apply these operations. We activate this capability through a two-stage training strategy: an initial SFT on a curated dataset of 500K samples to teach code generation, followed by a RL phase to refine decision-making. For the RL stage, we manually collect and design high-resolution question-answer pairs to increase the learning difficulty, and we propose GRPO-ATS (Group Relative Policy Optimization with Adaptive Temperature Sampling), an algorithm that applies distinct temperatures to text and code generation to balance reasoning exploration with code execution precision. We conduct extensive experimental analysis and ablation studies. Comprehensive evaluations on nearly 20 benchmarks show that Thyme yields significant and consistent performance gains, particularly in challenging high-resolution perception and complex reasoning tasks.",
-            "authors": [
-              "Wei Chen",
-              "Fan Yang",
-              "Liang Wang",
-              "Kaibing Chen",
-              "Bin Wen",
-              "Tianke Zhang",
-              "Changyi Liu",
-              "Guorui Zhou",
-              "Yi-Fan Zhang",
-              "Chaoyou Fu",
-              "Zhang Zhang",
-              "Xiao Hu",
-              "Xingyu Lu",
-              "Tingting Gao",
-              "Shukang Yin",
-              "Kaiyu Tang",
-              "Jiankang Chen",
-              "Haojie Ding",
-              "Kaiyu Jiang",
-              "Haonan Fan"
-            ],
-            "publication_date": "2025-08-15T17:59:49.000Z",
-            "imageURL": "image/2508.11630v1.png",
-            "public_total_votes": 27
-          }
-        },
-        {
-          "paper_id": "689e8dcc6bc81f8d09d6515d",
-          "added_at": "2025-08-19T00:17:19.936Z",
-          "details": {
-            "_id": "689e8dcc6bc81f8d09d6515d",
-            "subcategories": [
-              "cs.CL"
-            ],
-            "citation": {
-              "bibtex": "@misc{zhang2025ssrlselfsearchreinforcement,\n      title={SSRL: Self-Search Reinforcement Learning},\n      author={Yuchen Zhang and Gang Chen and Ning Ding and Yuchen Fan and Xinwei Long and Kaiyan Zhang and Bowen Zhou and Lei Bai and Xuekai Zhu and Bingning Wang and Yu Fu and Che Jiang and Yuxin Zuo and Cheng Huang and Yanxu Chen and Heng Zhou and Li Kang and Zhizhou He},\n      year={2025},\n      eprint={2508.10874},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2508.10874},\n}"
-            },
-            "organizationInfo": [
-              {
-                "_id": "67be6376aa92218ccd8b0f6f",
-                "name": "Tsinghua University",
-                "aliases": [],
-                "image": "images/organizations/tsinghua.png"
-              },
               {
                 "_id": "67be6376aa92218ccd8b0f7e",
                 "name": "Shanghai Jiao Tong University",
                 "aliases": []
               },
               {
-                "_id": "67be6377aa92218ccd8b0fdb",
-                "name": "University College London",
-                "aliases": []
+                "_id": "67be6376aa92218ccd8b0fa4",
+                "name": "Zhejiang University",
+                "aliases": [],
+                "image": "images/organizations/zhejiang.png"
               },
               {
-                "_id": "67be6377aa92218ccd8b1019",
-                "name": "Shanghai AI Laboratory",
-                "aliases": []
-              },
-              {
-                "_id": "67be6611aa92218ccd8b6088",
-                "name": "WeChat AI",
-                "aliases": []
-              },
-              {
-                "_id": "689e8dd1f429a9a350b42f2a",
-                "name": "CSCEC Third Bureau",
-                "aliases": []
+                "_id": "67be6377aa92218ccd8b0fe7",
+                "name": "ByteDance",
+                "aliases": [
+                  "ByteDance Seed",
+                  "ByteDance Inc.",
+                  "ByteDance Research",
+                  "ByteDance Inc",
+                  "ByteDance China",
+                  "Bytedance Inc",
+                  "Bytedance Seed",
+                  "Bytedance",
+                  "bytedance",
+                  "Bytedance Inc."
+                ],
+                "image": "images/organizations/bytedance.png"
               }
             ],
-            "id": "689e8dcc6bc81f8d09d6515d",
-            "paper_id": "2508.10874",
-            "title": "SSRL: Self-Search Reinforcement Learning",
-            "abstract": "We investigate the potential of large language models (LLMs) to serve as efficient simulators for agentic search tasks in reinforcement learning (RL), thereby reducing dependence on costly interactions with external search engines. To this end, we first quantify the intrinsic search capability of LLMs via structured prompting and repeated sampling, which we term Self-Search. Our results reveal that LLMs exhibit strong scaling behavior with respect to the inference budget, achieving high pass@k on question-answering benchmarks, including the challenging BrowseComp task. Building on these observations, we introduce Self-Search RL (SSRL), which enhances LLMs' Self-Search capability through format-based and rule-based rewards. SSRL enables models to iteratively refine their knowledge utilization internally, without requiring access to external tools. Empirical evaluations demonstrate that SSRL-trained policy models provide a cost-effective and stable environment for search-driven RL training, reducing reliance on external search engines and facilitating robust sim-to-real transfer. We draw the following conclusions: 1) LLMs possess world knowledge that can be effectively elicited to achieve high performance; 2) SSRL demonstrates the potential of leveraging internal knowledge to reduce hallucination; 3) SSRL-trained models integrate seamlessly with external search engines without additional effort. Our findings highlight the potential of LLMs to support more scalable RL agent training.",
+            "id": "689d4897ea57ba53fca8be98",
+            "paper_id": "2508.09736",
+            "title": "Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory",
+            "abstract": "We introduce M3-Agent, a novel multimodal agent framework equipped with long-term memory. Like humans, M3-Agent can process real-time visual and auditory inputs to build and update its long-term memory. Beyond episodic memory, it also develops semantic memory, enabling it to accumulate world knowledge over time. Its memory is organized in an entity-centric, multimodal format, allowing deeper and more consistent understanding of the environment. Given an instruction, M3-Agent autonomously performs multi-turn, iterative reasoning and retrieves relevant information from memory to accomplish the task. To evaluate memory effectiveness and memory-based reasoning in multimodal agents, we develop M3-Bench, a new long-video question answering benchmark. M3-Bench comprises 100 newly recorded real-world videos captured from a robot's perspective (M3-Bench-robot) and 920 web-sourced videos across diverse scenarios (M3-Bench-web). We annotate question-answer pairs designed to test key capabilities essential for agent applications, such as human understanding, general knowledge extraction, and cross-modal reasoning. Experimental results show that M3-Agent, trained via reinforcement learning, outperforms the strongest baseline, a prompting agent using Gemini-1.5-pro and GPT-4o, achieving 6.7%, 7.7%, and 5.3% higher accuracy on M3-Bench-robot, M3-Bench-web and VideoMME-long, respectively. Our work advances the multimodal agents toward more human-like long-term memory and provides insights into their practical design. Model, code and data are available at this https URL",
             "authors": [
-              "Yuchen Zhang",
-              "Gang Chen",
-              "Ning Ding",
-              "Yuchen Fan",
-              "Xinwei Long",
-              "Kaiyan Zhang",
-              "Bowen Zhou",
-              "Lei Bai",
-              "Xuekai Zhu",
-              "Bingning Wang",
-              "Yu Fu",
-              "Che Jiang",
-              "Yuxin Zuo",
-              "Cheng Huang",
-              "Yanxu Chen",
-              "Heng Zhou",
-              "Li Kang",
-              "Zhizhou He"
+              "Wei Li",
+              "Hang Li",
+              "Yuan Lin",
+              "Junbo Zhao",
+              "Wentao Ye",
+              "Lin Long",
+              "Yichen He",
+              "Yiyuan Pan"
             ],
-            "publication_date": "2025-08-14T17:46:01.000Z",
-            "imageURL": "image/2508.10874v1.png",
-            "public_total_votes": 46
+            "publication_date": "2025-08-15T13:40:53.000Z",
+            "imageURL": "image/2508.09736v2.png",
+            "public_total_votes": 216
+          }
+        },
+        {
+          "paper_id": "689e91426bc81f8d09d651ac",
+          "added_at": "2025-08-19T03:00:45.657Z",
+          "details": {
+            "_id": "689e91426bc81f8d09d651ac",
+            "subcategories": [
+              "cs.CL",
+              "cs.AI",
+              "cs.LG"
+            ],
+            "organizationInfo": [],
+            "id": "689e91426bc81f8d09d651ac",
+            "paper_id": "2508.10419",
+            "title": "ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning",
+            "abstract": "Narrative comprehension on long stories and novels has been a challenging domain attributed to their intricate plotlines and entangled, often evolving relations among characters and entities. Given the LLM's diminished reasoning over extended context and high computational cost, retrieval-based approaches remain a pivotal role in practice. However, traditional RAG methods can fall short due to their stateless, single-step retrieval process, which often overlooks the dynamic nature of capturing interconnected relations within long-range context. In this work, we propose ComoRAG, holding the principle that narrative reasoning is not a one-shot process, but a dynamic, evolving interplay between new evidence acquisition and past knowledge consolidation, analogous to human cognition when reasoning with memory-related signals in the brain. Specifically, when encountering a reasoning impasse, ComoRAG undergoes iterative reasoning cycles while interacting with a dynamic memory workspace. In each cycle, it generates probing queries to devise new exploratory paths, then integrates the retrieved evidence of new aspects into a global memory pool, thereby supporting the emergence of a coherent context for the query resolution. Across four challenging long-context narrative benchmarks (200K+ tokens), ComoRAG outperforms strong RAG baselines with consistent relative gains up to 11% compared to the strongest baseline. Further analysis reveals that ComoRAG is particularly advantageous for complex queries requiring global comprehension, offering a principled, cognitively motivated paradigm for retrieval-based long context comprehension towards stateful reasoning. Our code is publicly released at this https URL",
+            "authors": [
+              "Jie Zhou",
+              "Wei Wei",
+              "Jin Xu",
+              "Liyan Xu",
+              "Mo Yu",
+              "Yufeng Wang",
+              "Juyuan Wang",
+              "Rongchen Zhao"
+            ],
+            "publication_date": "2025-08-14T07:52:09.000Z",
+            "imageURL": "image/2508.10419v1.png",
+            "public_total_votes": 13
           }
         },
         {
           "paper_id": "689e93586bc81f8d09d651dd",
-          "added_at": "2025-08-18T23:53:29.676Z",
+          "added_at": "2025-08-19T14:53:56.056Z",
           "details": {
             "_id": "689e93586bc81f8d09d651dd",
             "subcategories": [
@@ -225,7 +171,102 @@
             ],
             "publication_date": "2025-08-13T18:00:55.000Z",
             "imageURL": "image/2508.10104v1.png",
-            "public_total_votes": 126
+            "public_total_votes": 155
+          }
+        },
+        {
+          "paper_id": "689d3bf9ea57ba53fca8bcc2",
+          "added_at": "2025-08-19T02:38:00.055Z",
+          "details": {
+            "_id": "689d3bf9ea57ba53fca8bcc2",
+            "subcategories": [
+              "cs.CL",
+              "cs.AI"
+            ],
+            "citation": {
+              "bibtex": "@misc{chen2025memorydecoderpretrained,\n      title={Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models},\n      author={Kai Chen and Qipeng Guo and Bowen Zhou and Zhouhan Lin and Jiarui Wang and Jiaqi Cao and Rubin Wei},\n      year={2025},\n      eprint={2508.09874},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2508.09874},\n}"
+            },
+            "organizationInfo": [
+              {
+                "_id": "67be6376aa92218ccd8b0f6f",
+                "name": "Tsinghua University",
+                "aliases": [],
+                "image": "images/organizations/tsinghua.png"
+              },
+              {
+                "_id": "67be6376aa92218ccd8b0f7e",
+                "name": "Shanghai Jiao Tong University",
+                "aliases": []
+              },
+              {
+                "_id": "67be6377aa92218ccd8b1019",
+                "name": "Shanghai AI Laboratory",
+                "aliases": []
+              }
+            ],
+            "id": "689d3bf9ea57ba53fca8bcc2",
+            "paper_id": "2508.09874",
+            "title": "Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models",
+            "abstract": "Large Language Models (LLMs) have shown strong abilities in general language tasks, yet adapting them to specific domains remains a challenge. Current method like Domain Adaptive Pretraining (DAPT) requires costly full-parameter training and suffers from catastrophic forgetting. Meanwhile, Retrieval-Augmented Generation (RAG) introduces substantial inference latency due to expensive nearest-neighbor searches and longer context. This paper introduces Memory Decoder, a plug-and-play pretrained memory that enables efficient domain adaptation without changing the original model's parameters. Memory Decoder employs a small transformer decoder that learns to imitate the behavior of an external non-parametric retriever. Once trained, Memory Decoder can be seamlessly integrated with any pretrained language model that shares the same tokenizer, requiring no model-specific modifications. Experimental results demonstrate that Memory Decoder enables effective adaptation of various Qwen and Llama models to three distinct specialized domains: biomedicine, finance, and law, reducing perplexity by an average of 6.17 points. Overall, Memory Decoder introduces a novel paradigm centered on a specially pretrained memory component designed for domain-specific adaptation. This memory architecture can be integrated in a plug-and-play manner, consistently enhancing performance across multiple models within the target domain.",
+            "authors": [
+              "Kai Chen",
+              "Qipeng Guo",
+              "Bowen Zhou",
+              "Zhouhan Lin",
+              "Jiarui Wang",
+              "Jiaqi Cao",
+              "Rubin Wei"
+            ],
+            "publication_date": "2025-08-13T15:16:29.000Z",
+            "imageURL": "image/2508.09874v1.png",
+            "public_total_votes": 42
+          }
+        },
+        {
+          "paper_id": "689be1e52db7e5b4fb831044",
+          "added_at": "2025-08-19T16:24:52.576Z",
+          "details": {
+            "_id": "689be1e52db7e5b4fb831044",
+            "subcategories": [
+              "cs.CL",
+              "cs.SE"
+            ],
+            "citation": {
+              "bibtex": "@misc{zhang2025autocodebenchlargelanguage,\n      title={AutoCodeBench: Large Language Models are Automatic Code Benchmark Generators},\n      author={Tao Zhang and Ao Liu and Yue Mao and Fengzong Lian and Haotian Zhu and Chenchen Zhang and Jason Chou and Yuchi Deng and Ziyan Xu and Jianwei Cai and Bohui Zhai and Lingyun Tan and Wiggin Zhou and Zhiying Zeng and Hengyi Liu and Speed Zhu},\n      year={2025},\n      eprint={2508.09101},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2508.09101},\n}"
+            },
+            "organizationInfo": [
+              {
+                "_id": "67be6383aa92218ccd8b1406",
+                "name": "Tencent",
+                "aliases": [],
+                "image": "images/organizations/tencent.png"
+              }
+            ],
+            "id": "689be1e52db7e5b4fb831044",
+            "paper_id": "2508.09101",
+            "title": "AutoCodeBench: Large Language Models are Automatic Code Benchmark Generators",
+            "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, with code generation emerging as a key area of focus. While numerous benchmarks have been proposed to evaluate their code generation abilities, these benchmarks face several critical limitations. First, they often rely on manual annotations, which are time-consuming and difficult to scale across different programming languages and problem complexities. Second, most existing benchmarks focus primarily on Python, while the few multilingual benchmarks suffer from limited difficulty and uneven language distribution. To address these challenges, we propose AutoCodeGen, an automated method for generating high-difficulty multilingual code generation datasets without manual annotations. AutoCodeGen ensures the correctness and completeness of test cases by generating test inputs with LLMs and obtaining test outputs through a multilingual sandbox, while achieving high data quality through reverse-order problem generation and multiple filtering steps. Using this novel method, we introduce AutoCodeBench, a large-scale code generation benchmark comprising 3,920 problems evenly distributed across 20 programming languages. It is specifically designed to evaluate LLMs on challenging, diverse, and practical multilingual tasks. We evaluate over 30 leading open-source and proprietary LLMs on AutoCodeBench and its simplified version AutoCodeBench-Lite. The results show that even the most advanced LLMs struggle with the complexity, diversity, and multilingual nature of these tasks. Besides, we introduce AutoCodeBench-Complete, specifically designed for base models to assess their few-shot code generation capabilities. We hope the AutoCodeBench series will serve as a valuable resource and inspire the community to focus on more challenging and practical multilingual code generation scenarios.",
+            "authors": [
+              "Tao Zhang",
+              "Ao Liu",
+              "Yue Mao",
+              "Fengzong Lian",
+              "Haotian Zhu",
+              "Chenchen Zhang",
+              "Jason Chou",
+              "Yuchi Deng",
+              "Ziyan Xu",
+              "Jianwei Cai",
+              "Bohui Zhai",
+              "Lingyun Tan",
+              "Wiggin Zhou",
+              "Zhiying Zeng",
+              "Hengyi Liu",
+              "Speed Zhu"
+            ],
+            "publication_date": "2025-08-12T17:29:20.000Z",
+            "imageURL": "image/2508.09101v1.png",
+            "public_total_votes": 17
           }
         },
         {
@@ -407,6 +448,77 @@
             "publication_date": "2025-08-05T17:50:13.000Z",
             "imageURL": "image/2508.03680v1.png",
             "public_total_votes": 178
+          }
+        },
+        {
+          "paper_id": "68799d921821b4d35ad898ef",
+          "added_at": "2025-08-19T03:14:13.580Z",
+          "details": {
+            "_id": "68799d921821b4d35ad898ef",
+            "subcategories": [
+              "cs.CL"
+            ],
+            "citation": {
+              "bibtex": "@misc{li2025surveycontextengineering,\n      title={A Survey of Context Engineering for Large Language Models},\n      author={Mingyu Li and Yujun Cai and Jiayu Yao and Jiafeng Guo and Jiayi Mao and Chenlin Zhou and Lingrui Mei and Duzhen Zhang and Shenghua Liu and Yiwei Wang and Baolong Bi and Yuyao Ge and Zhong-Zhi Li and Jiazhi Liu and Tianze Xia},\n      year={2025},\n      eprint={2507.13334},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2507.13334},\n}"
+            },
+            "organizationInfo": [
+              {
+                "_id": "67be6376aa92218ccd8b0f68",
+                "name": "University of Chinese Academy of Sciences",
+                "aliases": []
+              },
+              {
+                "_id": "67be6376aa92218ccd8b0f6f",
+                "name": "Tsinghua University",
+                "aliases": [],
+                "image": "images/organizations/tsinghua.png"
+              },
+              {
+                "_id": "67be6377aa92218ccd8b0fc7",
+                "name": "Institute of Computing Technology, Chinese Academy of Sciences",
+                "aliases": []
+              },
+              {
+                "_id": "67be6377aa92218ccd8b0ff5",
+                "name": "Peking University",
+                "aliases": [],
+                "image": "images/organizations/peking.png"
+              },
+              {
+                "_id": "67be637caa92218ccd8b11de",
+                "name": "University of California, Merced",
+                "aliases": []
+              },
+              {
+                "_id": "67be638aaa92218ccd8b15ef",
+                "name": "The University of Queensland",
+                "aliases": []
+              }
+            ],
+            "id": "68799d921821b4d35ad898ef",
+            "paper_id": "2507.13334",
+            "title": "A Survey of Context Engineering for Large Language Models",
+            "abstract": "The performance of Large Language Models (LLMs) is fundamentally determined by the contextual information provided during inference. This survey introduces Context Engineering, a formal discipline that transcends simple prompt design to encompass the systematic optimization of information payloads for LLMs. We present a comprehensive taxonomy decomposing Context Engineering into its foundational components and the sophisticated implementations that integrate them into intelligent systems. We first examine the foundational components: context retrieval and generation, context processing and context management. We then explore how these components are architecturally integrated to create sophisticated system implementations: retrieval-augmented generation (RAG), memory systems and tool-integrated reasoning, and multi-agent systems. Through this systematic analysis of over 1400 research papers, our survey not only establishes a technical roadmap for the field but also reveals a critical research gap: a fundamental asymmetry exists between model capabilities. While current models, augmented by advanced context engineering, demonstrate remarkable proficiency in understanding complex contexts, they exhibit pronounced limitations in generating equally sophisticated, long-form outputs. Addressing this gap is a defining priority for future research. Ultimately, this survey provides a unified framework for both researchers and engineers advancing context-aware AI.",
+            "authors": [
+              "Mingyu Li",
+              "Yujun Cai",
+              "Jiayu Yao",
+              "Jiafeng Guo",
+              "Jiayi Mao",
+              "Chenlin Zhou",
+              "Lingrui Mei",
+              "Duzhen Zhang",
+              "Shenghua Liu",
+              "Yiwei Wang",
+              "Baolong Bi",
+              "Yuyao Ge",
+              "Zhong-Zhi Li",
+              "Jiazhi Liu",
+              "Tianze Xia"
+            ],
+            "publication_date": "2025-07-21T17:48:18.000Z",
+            "imageURL": "image/2507.13334v2.png",
+            "public_total_votes": 269
           }
         },
         {
@@ -600,7 +712,152 @@
       "name": "Completed",
       "type": "default-completed",
       "order": 2,
-      "papers": [],
+      "papers": [
+        {
+          "paper_id": "68a2825700372a33db1e86f6",
+          "added_at": "2025-08-19T14:53:12.652Z",
+          "details": {
+            "_id": "68a2825700372a33db1e86f6",
+            "subcategories": [
+              "cs.CV"
+            ],
+            "citation": {
+              "bibtex": "@misc{chen2025thymethinkbeyond,\n      title={Thyme: Think Beyond Images},\n      author={Wei Chen and Fan Yang and Liang Wang and Kaibing Chen and Bin Wen and Tianke Zhang and Changyi Liu and Guorui Zhou and Yi-Fan Zhang and Chaoyou Fu and Zhang Zhang and Xiao Hu and Xingyu Lu and Tingting Gao and Shukang Yin and Kaiyu Tang and Jiankang Chen and Haojie Ding and Kaiyu Jiang and Haonan Fan},\n      year={2025},\n      eprint={2508.11630},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2508.11630},\n}"
+            },
+            "organizationInfo": [
+              {
+                "_id": "67be6376aa92218ccd8b0f6f",
+                "name": "Tsinghua University",
+                "aliases": [],
+                "image": "images/organizations/tsinghua.png"
+              },
+              {
+                "_id": "67be6376aa92218ccd8b0f8c",
+                "name": "Nanjing University",
+                "aliases": [],
+                "image": "images/organizations/nanjing.png"
+              },
+              {
+                "_id": "67be6377aa92218ccd8b1016",
+                "name": "University of Science and Technology of China",
+                "aliases": []
+              },
+              {
+                "_id": "68661c8f2dac261d0fc6034a",
+                "name": "Chinese Academy of Sciences Institute of Automation",
+                "aliases": []
+              },
+              {
+                "_id": "68a28263773bbee4a9992e13",
+                "name": "Kwai Keye",
+                "aliases": []
+              }
+            ],
+            "id": "68a2825700372a33db1e86f6",
+            "paper_id": "2508.11630",
+            "title": "Thyme: Think Beyond Images",
+            "abstract": "Following OpenAI's introduction of the ``thinking with images'' concept, recent efforts have explored stimulating the use of visual information in the reasoning process to enhance model performance in perception and reasoning tasks. However, to the best of our knowledge, no open-source work currently offers a feature set as rich as proprietary models (O3), which can perform diverse image manipulations and simultaneously enhance logical reasoning capabilities through code. In this paper, we make a preliminary attempt in this direction by introducing Thyme (Think Beyond Images), a novel paradigm for enabling MLLMs to transcend existing ``think with images'' approaches by autonomously generating and executing diverse image processing and computational operations via executable code. This approach not only facilitates a rich, on-the-fly set of image manipulations (e.g., cropping, rotation, contrast enhancement) but also allows for mathematical computations, all while maintaining high autonomy in deciding when and how to apply these operations. We activate this capability through a two-stage training strategy: an initial SFT on a curated dataset of 500K samples to teach code generation, followed by a RL phase to refine decision-making. For the RL stage, we manually collect and design high-resolution question-answer pairs to increase the learning difficulty, and we propose GRPO-ATS (Group Relative Policy Optimization with Adaptive Temperature Sampling), an algorithm that applies distinct temperatures to text and code generation to balance reasoning exploration with code execution precision. We conduct extensive experimental analysis and ablation studies. Comprehensive evaluations on nearly 20 benchmarks show that Thyme yields significant and consistent performance gains, particularly in challenging high-resolution perception and complex reasoning tasks.",
+            "authors": [
+              "Wei Chen",
+              "Fan Yang",
+              "Liang Wang",
+              "Kaibing Chen",
+              "Bin Wen",
+              "Tianke Zhang",
+              "Changyi Liu",
+              "Guorui Zhou",
+              "Yi-Fan Zhang",
+              "Chaoyou Fu",
+              "Zhang Zhang",
+              "Xiao Hu",
+              "Xingyu Lu",
+              "Tingting Gao",
+              "Shukang Yin",
+              "Kaiyu Tang",
+              "Jiankang Chen",
+              "Haojie Ding",
+              "Kaiyu Jiang",
+              "Haonan Fan"
+            ],
+            "publication_date": "2025-08-15T17:59:49.000Z",
+            "imageURL": "image/2508.11630v1.png",
+            "public_total_votes": 79
+          }
+        },
+        {
+          "paper_id": "689e8dcc6bc81f8d09d6515d",
+          "added_at": "2025-08-19T14:53:24.744Z",
+          "details": {
+            "_id": "689e8dcc6bc81f8d09d6515d",
+            "subcategories": [
+              "cs.CL"
+            ],
+            "citation": {
+              "bibtex": "@misc{zhang2025ssrlselfsearchreinforcement,\n      title={SSRL: Self-Search Reinforcement Learning},\n      author={Yuchen Zhang and Gang Chen and Ning Ding and Yuchen Fan and Xinwei Long and Kaiyan Zhang and Bowen Zhou and Lei Bai and Xuekai Zhu and Bingning Wang and Yu Fu and Che Jiang and Yuxin Zuo and Cheng Huang and Yanxu Chen and Heng Zhou and Li Kang and Zhizhou He},\n      year={2025},\n      eprint={2508.10874},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2508.10874},\n}"
+            },
+            "organizationInfo": [
+              {
+                "_id": "67be6376aa92218ccd8b0f6f",
+                "name": "Tsinghua University",
+                "aliases": [],
+                "image": "images/organizations/tsinghua.png"
+              },
+              {
+                "_id": "67be6376aa92218ccd8b0f7e",
+                "name": "Shanghai Jiao Tong University",
+                "aliases": []
+              },
+              {
+                "_id": "67be6377aa92218ccd8b0fdb",
+                "name": "University College London",
+                "aliases": []
+              },
+              {
+                "_id": "67be6377aa92218ccd8b1019",
+                "name": "Shanghai AI Laboratory",
+                "aliases": []
+              },
+              {
+                "_id": "67be6611aa92218ccd8b6088",
+                "name": "WeChat AI",
+                "aliases": []
+              },
+              {
+                "_id": "689e8dd1f429a9a350b42f2a",
+                "name": "CSCEC Third Bureau",
+                "aliases": []
+              }
+            ],
+            "id": "689e8dcc6bc81f8d09d6515d",
+            "paper_id": "2508.10874",
+            "title": "SSRL: Self-Search Reinforcement Learning",
+            "abstract": "We investigate the potential of large language models (LLMs) to serve as efficient simulators for agentic search tasks in reinforcement learning (RL), thereby reducing dependence on costly interactions with external search engines. To this end, we first quantify the intrinsic search capability of LLMs via structured prompting and repeated sampling, which we term Self-Search. Our results reveal that LLMs exhibit strong scaling behavior with respect to the inference budget, achieving high pass@k on question-answering benchmarks, including the challenging BrowseComp task. Building on these observations, we introduce Self-Search RL (SSRL), which enhances LLMs' Self-Search capability through format-based and rule-based rewards. SSRL enables models to iteratively refine their knowledge utilization internally, without requiring access to external tools. Empirical evaluations demonstrate that SSRL-trained policy models provide a cost-effective and stable environment for search-driven RL training, reducing reliance on external search engines and facilitating robust sim-to-real transfer. We draw the following conclusions: 1) LLMs possess world knowledge that can be effectively elicited to achieve high performance; 2) SSRL demonstrates the potential of leveraging internal knowledge to reduce hallucination; 3) SSRL-trained models integrate seamlessly with external search engines without additional effort. Our findings highlight the potential of LLMs to support more scalable RL agent training.",
+            "authors": [
+              "Yuchen Zhang",
+              "Gang Chen",
+              "Ning Ding",
+              "Yuchen Fan",
+              "Xinwei Long",
+              "Kaiyan Zhang",
+              "Bowen Zhou",
+              "Lei Bai",
+              "Xuekai Zhu",
+              "Bingning Wang",
+              "Yu Fu",
+              "Che Jiang",
+              "Yuxin Zuo",
+              "Cheng Huang",
+              "Yanxu Chen",
+              "Heng Zhou",
+              "Li Kang",
+              "Zhizhou He"
+            ],
+            "publication_date": "2025-08-14T17:46:01.000Z",
+            "imageURL": "image/2508.10874v1.png",
+            "public_total_votes": 65
+          }
+        }
+      ],
       "created_at": "2025-06-17T18:48:24.772Z",
       "updated_at": "2025-06-17T18:48:24.772Z",
       "id": "01977f38-97c4-7640-a7af-4b539f8bc590"

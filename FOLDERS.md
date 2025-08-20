@@ -2,15 +2,16 @@
 
 > Automatically updated research paper collection organized by reading status
 
-![Papers](https://img.shields.io/badge/Papers-10-blue) ![Folders](https://img.shields.io/badge/Folders-4-green) ![Updated](https://img.shields.io/badge/Updated-2025_08_19-orange)
+![Papers](https://img.shields.io/badge/Papers-15-blue) ![Folders](https://img.shields.io/badge/Folders-4-green) ![Updated](https://img.shields.io/badge/Updated-2025_08_20-orange)
 
 ## 📊 Quick Stats
 
 | Metric | Count |
 |--------|-------|
 | 📁 Total Folders | 4 |
-| 📄 Total Papers | 10 |
-| 📚 Reading | 10 |
+| 📄 Total Papers | 15 |
+| 📚 Reading | 13 |
+| ✅ Completed | 2 |
 
 ---
 
@@ -20,12 +21,8 @@
 
 ## ✅ Completed
 
-> No papers yet.
-
-## 📚 Reading
-
 <details open>
-<summary><strong>10 papers</strong> - Click to expand</summary>
+<summary><strong>2 papers</strong> - Click to expand</summary>
 
 ### 1. [Thyme: Think Beyond Images](https://arxiv.org/abs/2508.11630)
 
@@ -33,7 +30,7 @@
 **ArXiv ID:** `2508.11630`  
 **Published:** 2025-08-15  
 **Organizations:** Tsinghua University, Nanjing University et al.  
-**Votes:** 27 votes  
+**Votes:** 79 votes  
 **Abstract:** Following OpenAI's introduction of the ``thinking with images'' concept, recent efforts have explored stimulating the use of visual information in the reasoning process to enhance model performance in...
 
 **Categories:** `cs.CV`
@@ -46,10 +43,43 @@
 **ArXiv ID:** `2508.10874`  
 **Published:** 2025-08-14  
 **Organizations:** Tsinghua University, Shanghai Jiao Tong University et al.  
-**Votes:** 46 votes  
+**Votes:** 65 votes  
 **Abstract:** We investigate the potential of large language models (LLMs) to serve as efficient simulators for agentic search tasks in reinforcement learning (RL), thereby reducing dependence on costly interaction...
 
 **Categories:** `cs.CL`
+
+---
+
+</details>
+
+## 📚 Reading
+
+<details open>
+<summary><strong>13 papers</strong> - Click to expand</summary>
+
+### 1. [Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](https://arxiv.org/abs/2508.09736)
+
+**Authors:** Wei Li, Hang Li, Yuan Lin et al.  
+**ArXiv ID:** `2508.09736`  
+**Published:** 2025-08-15  
+**Organizations:** Shanghai Jiao Tong University, Zhejiang University et al.  
+**Votes:** 216 votes  
+**Abstract:** We introduce M3-Agent, a novel multimodal agent framework equipped with long-term memory. Like humans, M3-Agent can process real-time visual and auditory inputs to build and update its long-term memor...
+
+**Categories:** `cs.CV`
+
+---
+
+### 2. [ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning](https://arxiv.org/abs/2508.10419)
+
+**Authors:** Jie Zhou, Wei Wei, Jin Xu et al.  
+**ArXiv ID:** `2508.10419`  
+**Published:** 2025-08-14  
+**Organizations:** N/A  
+**Votes:** 13 votes  
+**Abstract:** Narrative comprehension on long stories and novels has been a challenging domain attributed to their intricate plotlines and entangled, often evolving relations among characters and entities. Given th...
+
+**Categories:** `cs.CL`, `cs.AI`, `cs.LG`
 
 ---
 
@@ -59,14 +89,40 @@
 **ArXiv ID:** `2508.10104`  
 **Published:** 2025-08-13  
 **Organizations:** Inria, Meta AI Research et al.  
-**Votes:** 126 votes  
+**Votes:** 155 votes  
 **Abstract:** Self-supervised learning holds the promise of eliminating the need for manual data annotation, enabling models to scale effortlessly to massive datasets and larger architectures. By not being tailored...
 
 **Categories:** `cs.CV`, `cs.LG`
 
 ---
 
-### 4. [DeepFleet: Multi-Agent Foundation Models for Mobile Robots](https://arxiv.org/abs/2508.08574)
+### 4. [Memory Decoder: A Pretrained, Plug-and-Play Memory for Large Language Models](https://arxiv.org/abs/2508.09874)
+
+**Authors:** Kai Chen, Qipeng Guo, Bowen Zhou et al.  
+**ArXiv ID:** `2508.09874`  
+**Published:** 2025-08-13  
+**Organizations:** Tsinghua University, Shanghai Jiao Tong University et al.  
+**Votes:** 42 votes  
+**Abstract:** Large Language Models (LLMs) have shown strong abilities in general language tasks, yet adapting them to specific domains remains a challenge. Current method like Domain Adaptive Pretraining (DAPT) re...
+
+**Categories:** `cs.CL`, `cs.AI`
+
+---
+
+### 5. [AutoCodeBench: Large Language Models are Automatic Code Benchmark Generators](https://arxiv.org/abs/2508.09101)
+
+**Authors:** Tao Zhang, Ao Liu, Yue Mao et al.  
+**ArXiv ID:** `2508.09101`  
+**Published:** 2025-08-12  
+**Organizations:** Tencent  
+**Votes:** 17 votes  
+**Abstract:** Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, with code generation emerging as a key area of focus. While numerous benchmarks have been proposed to eva...
+
+**Categories:** `cs.CL`, `cs.SE`
+
+---
+
+### 6. [DeepFleet: Multi-Agent Foundation Models for Mobile Robots](https://arxiv.org/abs/2508.08574)
 
 **Authors:** Ang Li, Scott Niekum, Kyle O'Brien et al.  
 **ArXiv ID:** `2508.08574`  
@@ -79,7 +135,7 @@
 
 ---
 
-### 5. [On the Generalization of SFT: A Reinforcement Learning Perspective with Reward Rectification](https://arxiv.org/abs/2508.05629)
+### 7. [On the Generalization of SFT: A Reinforcement Learning Perspective with Reward Rectification](https://arxiv.org/abs/2508.05629)
 
 **Authors:** Ming-Hsuan Yang, Xinyu Ye, Lu Qi et al.  
 **ArXiv ID:** `2508.05629`  
@@ -92,7 +148,7 @@
 
 ---
 
-### 6. [Agent Lightning: Train ANY AI Agents with Reinforcement Learning](https://arxiv.org/abs/2508.03680)
+### 8. [Agent Lightning: Train ANY AI Agents with Reinforcement Learning](https://arxiv.org/abs/2508.03680)
 
 **Authors:** Yuqing Yang, Zilong Wang, Dongsheng Li et al.  
 **ArXiv ID:** `2508.03680`  
@@ -105,7 +161,20 @@
 
 ---
 
-### 7. [MemOS: An Operating System for Memory-Augmented Generation (MAG) in  Large Language Models](https://arxiv.org/abs/2505.22101)
+### 9. [A Survey of Context Engineering for Large Language Models](https://arxiv.org/abs/2507.13334)
+
+**Authors:** Mingyu Li, Yujun Cai, Jiayu Yao et al.  
+**ArXiv ID:** `2507.13334`  
+**Published:** 2025-07-21  
+**Organizations:** University of Chinese Academy of Sciences, Tsinghua University et al.  
+**Votes:** 269 votes  
+**Abstract:** The performance of Large Language Models (LLMs) is fundamentally determined by the contextual information provided during inference. This survey introduces Context Engineering, a formal discipline tha...
+
+**Categories:** `cs.CL`
+
+---
+
+### 10. [MemOS: An Operating System for Memory-Augmented Generation (MAG) in  Large Language Models](https://arxiv.org/abs/2505.22101)
 
 **Authors:** Jiawei Yang, Zhi-Qin John Xu, Kai Chen et al.  
 **ArXiv ID:** `2505.22101`  
@@ -120,7 +189,7 @@ capabilities in language perception and gener...
 
 ---
 
-### 8. [Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future  Directions](https://arxiv.org/abs/2505.00675)
+### 11. [Rethinking Memory in AI: Taxonomy, Operations, Topics, and Future  Directions](https://arxiv.org/abs/2505.00675)
 
 **Authors:** Danna Zheng, Mirella Lapata, Jeff Z. Pan et al.  
 **ArXiv ID:** `2505.00675`  
@@ -135,7 +204,7 @@ applications with LLMs (e.g., enabling personalized ...
 
 ---
 
-### 9. [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413)
+### 12. [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413)
 
 **Authors:** Prateek Chhikara, Deshraj Yadav, Taranjeet Singh et al.  
 **ArXiv ID:** `2504.19413`  
@@ -150,7 +219,7 @@ pose fundamental challenges for maintaining consistency...
 
 ---
 
-### 10. [Memory Consolidation Enables Long-Context Video Understanding](https://arxiv.org/abs/2402.05861)
+### 13. [Memory Consolidation Enables Long-Context Video Understanding](https://arxiv.org/abs/2402.05861)
 
 **Authors:** Rahma Chaabouni, Yuge Shi, Skanda Koppula et al.  
 **ArXiv ID:** `2402.05861`  
@@ -174,7 +243,7 @@ pose fundamental challenges for maintaining consistency...
 
 <div align="center">
 
-**Last Updated:** 2025-08-19 01:37:31 UTC
+**Last Updated:** 2025-08-20 00:21:03 UTC
 
 *This file is automatically generated by the [format script](./scripts/format.ts)*
 
