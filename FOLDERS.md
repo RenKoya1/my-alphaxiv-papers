@@ -2,7 +2,7 @@
 
 > Automatically updated research paper collection organized by reading status
 
-![Papers](https://img.shields.io/badge/Papers-15-blue) ![Folders](https://img.shields.io/badge/Folders-4-green) ![Updated](https://img.shields.io/badge/Updated-2025_08_20-orange)
+![Papers](https://img.shields.io/badge/Papers-15-blue) ![Folders](https://img.shields.io/badge/Folders-4-green) ![Updated](https://img.shields.io/badge/Updated-2025_08_21-orange)
 
 ## 📊 Quick Stats
 
@@ -30,7 +30,7 @@
 **ArXiv ID:** `2508.11630`  
 **Published:** 2025-08-15  
 **Organizations:** Tsinghua University, Nanjing University et al.  
-**Votes:** 79 votes  
+**Votes:** 125 votes  
 **Abstract:** Following OpenAI's introduction of the ``thinking with images'' concept, recent efforts have explored stimulating the use of visual information in the reasoning process to enhance model performance in...
 
 **Categories:** `cs.CV`
@@ -43,7 +43,7 @@
 **ArXiv ID:** `2508.10874`  
 **Published:** 2025-08-14  
 **Organizations:** Tsinghua University, Shanghai Jiao Tong University et al.  
-**Votes:** 65 votes  
+**Votes:** 84 votes  
 **Abstract:** We investigate the potential of large language models (LLMs) to serve as efficient simulators for agentic search tasks in reinforcement learning (RL), thereby reducing dependence on costly interaction...
 
 **Categories:** `cs.CL`
@@ -63,7 +63,7 @@
 **ArXiv ID:** `2508.09736`  
 **Published:** 2025-08-15  
 **Organizations:** Shanghai Jiao Tong University, Zhejiang University et al.  
-**Votes:** 216 votes  
+**Votes:** 255 votes  
 **Abstract:** We introduce M3-Agent, a novel multimodal agent framework equipped with long-term memory. Like humans, M3-Agent can process real-time visual and auditory inputs to build and update its long-term memor...
 
 **Categories:** `cs.CV`
@@ -76,7 +76,7 @@
 **ArXiv ID:** `2508.10419`  
 **Published:** 2025-08-14  
 **Organizations:** N/A  
-**Votes:** 13 votes  
+**Votes:** 20 votes  
 **Abstract:** Narrative comprehension on long stories and novels has been a challenging domain attributed to their intricate plotlines and entangled, often evolving relations among characters and entities. Given th...
 
 **Categories:** `cs.CL`, `cs.AI`, `cs.LG`
@@ -89,7 +89,7 @@
 **ArXiv ID:** `2508.10104`  
 **Published:** 2025-08-13  
 **Organizations:** Inria, Meta AI Research et al.  
-**Votes:** 155 votes  
+**Votes:** 175 votes  
 **Abstract:** Self-supervised learning holds the promise of eliminating the need for manual data annotation, enabling models to scale effortlessly to massive datasets and larger architectures. By not being tailored...
 
 **Categories:** `cs.CV`, `cs.LG`
@@ -102,7 +102,7 @@
 **ArXiv ID:** `2508.09874`  
 **Published:** 2025-08-13  
 **Organizations:** Tsinghua University, Shanghai Jiao Tong University et al.  
-**Votes:** 42 votes  
+**Votes:** 50 votes  
 **Abstract:** Large Language Models (LLMs) have shown strong abilities in general language tasks, yet adapting them to specific domains remains a challenge. Current method like Domain Adaptive Pretraining (DAPT) re...
 
 **Categories:** `cs.CL`, `cs.AI`
@@ -115,7 +115,7 @@
 **ArXiv ID:** `2508.09101`  
 **Published:** 2025-08-12  
 **Organizations:** Tencent  
-**Votes:** 17 votes  
+**Votes:** 21 votes  
 **Abstract:** Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, with code generation emerging as a key area of focus. While numerous benchmarks have been proposed to eva...
 
 **Categories:** `cs.CL`, `cs.SE`
@@ -128,7 +128,7 @@
 **ArXiv ID:** `2508.08574`  
 **Published:** 2025-08-12  
 **Organizations:** Amazon Robotics  
-**Votes:** 7 votes  
+**Votes:** 9 votes  
 **Abstract:** We introduce DeepFleet, a suite of foundation models designed to support coordination and planning for large-scale mobile robot fleets. These models are trained on fleet movement data, including robot...
 
 **Categories:** `cs.RO`, `cs.MA`
@@ -154,7 +154,7 @@
 **ArXiv ID:** `2508.03680`  
 **Published:** 2025-08-05  
 **Organizations:** Microsoft  
-**Votes:** 178 votes  
+**Votes:** 179 votes  
 **Abstract:** We present Agent Lightning, a flexible and extensible framework that enables Reinforcement Learning (RL)-based training of Large Language Models (LLMs) for any AI agent. Unlike existing methods that t...
 
 **Categories:** `cs.AI`, `cs.LG`
@@ -167,7 +167,7 @@
 **ArXiv ID:** `2507.13334`  
 **Published:** 2025-07-21  
 **Organizations:** University of Chinese Academy of Sciences, Tsinghua University et al.  
-**Votes:** 269 votes  
+**Votes:** 270 votes  
 **Abstract:** The performance of Large Language Models (LLMs) is fundamentally determined by the contextual information provided during inference. This survey introduces Context Engineering, a formal discipline tha...
 
 **Categories:** `cs.CL`
@@ -195,7 +195,7 @@ capabilities in language perception and gener...
 **ArXiv ID:** `2505.00675`  
 **Published:** 2025-05-27  
 **Organizations:** The Chinese University of Hong Kong, The University of Edinburgh et al.  
-**Votes:** 819 votes  
+**Votes:** 820 votes  
 **Abstract:** Memory is a fundamental component of AI systems, underpinning large language
 models (LLMs)-based agents. While prior surveys have focused on memory
 applications with LLMs (e.g., enabling personalized ...
@@ -210,7 +210,7 @@ applications with LLMs (e.g., enabling personalized ...
 **ArXiv ID:** `2504.19413`  
 **Published:** 2025-04-28  
 **Organizations:** N/A  
-**Votes:** 658 votes  
+**Votes:** 659 votes  
 **Abstract:** Large Language Models (LLMs) have demonstrated remarkable prowess in
 generating contextually coherent responses, yet their fixed context windows
 pose fundamental challenges for maintaining consistency...
@@ -243,7 +243,7 @@ pose fundamental challenges for maintaining consistency...
 
 <div align="center">
 
-**Last Updated:** 2025-08-20 00:21:03 UTC
+**Last Updated:** 2025-08-21 00:20:14 UTC
 
 *This file is automatically generated by the [format script](./scripts/format.ts)*
 
