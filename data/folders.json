@@ -75,7 +75,7 @@
             ],
             "publication_date": "2025-08-15T13:40:53.000Z",
             "imageURL": "image/2508.09736v2.png",
-            "public_total_votes": 255
+            "public_total_votes": 285
           }
         },
         {
@@ -105,7 +105,7 @@
             ],
             "publication_date": "2025-08-14T07:52:09.000Z",
             "imageURL": "image/2508.10419v1.png",
-            "public_total_votes": 20
+            "public_total_votes": 23
           }
         },
         {
@@ -171,7 +171,7 @@
             ],
             "publication_date": "2025-08-13T18:00:55.000Z",
             "imageURL": "image/2508.10104v1.png",
-            "public_total_votes": 175
+            "public_total_votes": 196
           }
         },
         {
@@ -219,7 +219,7 @@
             ],
             "publication_date": "2025-08-13T15:16:29.000Z",
             "imageURL": "image/2508.09874v1.png",
-            "public_total_votes": 50
+            "public_total_votes": 57
           }
         },
         {
@@ -266,7 +266,7 @@
             ],
             "publication_date": "2025-08-12T17:29:20.000Z",
             "imageURL": "image/2508.09101v1.png",
-            "public_total_votes": 21
+            "public_total_votes": 23
           }
         },
         {
@@ -316,7 +316,7 @@
             ],
             "publication_date": "2025-08-12T02:19:15.000Z",
             "imageURL": "image/2508.08574v1.png",
-            "public_total_votes": 9
+            "public_total_votes": 11
           }
         },
         {
@@ -391,7 +391,7 @@
             ],
             "publication_date": "2025-08-07T17:59:04.000Z",
             "imageURL": "image/2508.05629v1.png",
-            "public_total_votes": 203
+            "public_total_votes": 204
           }
         },
         {
@@ -518,7 +518,7 @@
             ],
             "publication_date": "2025-07-21T17:48:18.000Z",
             "imageURL": "image/2507.13334v2.png",
-            "public_total_votes": 270
+            "public_total_votes": 271
           }
         },
         {
@@ -781,7 +781,7 @@
             ],
             "publication_date": "2025-08-15T17:59:49.000Z",
             "imageURL": "image/2508.11630v1.png",
-            "public_total_votes": 125
+            "public_total_votes": 155
           }
         },
         {
@@ -854,7 +854,54 @@
             ],
             "publication_date": "2025-08-14T17:46:01.000Z",
             "imageURL": "image/2508.10874v1.png",
-            "public_total_votes": 84
+            "public_total_votes": 99
+          }
+        },
+        {
+          "paper_id": "673b9387ee7cdcdc03b1829f",
+          "added_at": "2025-08-21T15:37:56.447Z",
+          "details": {
+            "_id": "673b9387ee7cdcdc03b1829f",
+            "subcategories": [
+              "cs.CL"
+            ],
+            "citation": {
+              "bibtex": "@misc{li2024memoryllmtowardsselfupdatable,\n      title={MEMORYLLM: Towards Self-Updatable Large Language Models}, \n      author={Xian Li and Yu Wang and Zheng Li and Jingfeng Yang and Haoming Jiang and Bing Yin and Julian McAuley and Jingbo Shang and Qingyu Yin and Shiyang Li and Yifan Gao and Xiusi Chen},\n      year={2024},\n      eprint={2402.04624},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2402.04624}, \n}"
+            },
+            "organizationInfo": [
+              {
+                "_id": "67be64d3aa92218ccd8b43d3",
+                "name": "UC, San Diego",
+                "aliases": []
+              },
+              {
+                "_id": "67c381a36238d4c4ef213ae4",
+                "name": "UC, Los Angeles",
+                "aliases": []
+              }
+            ],
+            "id": "673b9387ee7cdcdc03b1829f",
+            "paper_id": "2402.04624",
+            "title": "MEMORYLLM: Towards Self-Updatable Large Language Models",
+            "abstract": "Existing Large Language Models (LLMs) usually remain static after deployment, which might make it hard to inject new knowledge into the model. We aim to build models containing a considerable portion of self-updatable parameters, enabling the model to integrate new knowledge effectively and efficiently. To this end, we introduce MEMORYLLM, a model that comprises a transformer and a fixed-size memory pool within the latent space of the transformer. MEMORYLLM can self-update with text knowledge and memorize the knowledge injected earlier. Our evaluations demonstrate the ability of MEMORYLLM to effectively incorporate new knowledge, as evidenced by its performance on model editing benchmarks. Meanwhile, the model exhibits long-term information retention capacity, which is validated through our custom-designed evaluations and long-context benchmarks. MEMORYLLM also shows operational integrity without any sign of performance degradation even after nearly a million memory updates. Our code and model are open-sourced at this https URL.",
+            "authors": [
+              "Xian Li",
+              "Yu Wang",
+              "Zheng Li",
+              "Jingfeng Yang",
+              "Haoming Jiang",
+              "Bing Yin",
+              "Julian McAuley",
+              "Jingbo Shang",
+              "Qingyu Yin",
+              "Shiyang Li",
+              "Yifan Gao",
+              "Xiusi Chen"
+            ],
+            "publication_date": "2024-05-26T23:06:32.000Z",
+            "activity_score": 0,
+            "imageURL": "image/2402.04624v2.png",
+            "public_total_votes": 28
           }
         }
       ],

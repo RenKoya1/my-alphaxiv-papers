@@ -2,16 +2,16 @@
 
 > Automatically updated research paper collection organized by reading status
 
-![Papers](https://img.shields.io/badge/Papers-15-blue) ![Folders](https://img.shields.io/badge/Folders-4-green) ![Updated](https://img.shields.io/badge/Updated-2025_08_21-orange)
+![Papers](https://img.shields.io/badge/Papers-16-blue) ![Folders](https://img.shields.io/badge/Folders-4-green) ![Updated](https://img.shields.io/badge/Updated-2025_08_22-orange)
 
 ## 📊 Quick Stats
 
 | Metric | Count |
 |--------|-------|
 | 📁 Total Folders | 4 |
-| 📄 Total Papers | 15 |
+| 📄 Total Papers | 16 |
 | 📚 Reading | 13 |
-| ✅ Completed | 2 |
+| ✅ Completed | 3 |
 
 ---
 
@@ -22,7 +22,7 @@
 ## ✅ Completed
 
 <details open>
-<summary><strong>2 papers</strong> - Click to expand</summary>
+<summary><strong>3 papers</strong> - Click to expand</summary>
 
 ### 1. [Thyme: Think Beyond Images](https://arxiv.org/abs/2508.11630)
 
@@ -30,7 +30,7 @@
 **ArXiv ID:** `2508.11630`  
 **Published:** 2025-08-15  
 **Organizations:** Tsinghua University, Nanjing University et al.  
-**Votes:** 125 votes  
+**Votes:** 155 votes  
 **Abstract:** Following OpenAI's introduction of the ``thinking with images'' concept, recent efforts have explored stimulating the use of visual information in the reasoning process to enhance model performance in...
 
 **Categories:** `cs.CV`
@@ -43,8 +43,21 @@
 **ArXiv ID:** `2508.10874`  
 **Published:** 2025-08-14  
 **Organizations:** Tsinghua University, Shanghai Jiao Tong University et al.  
-**Votes:** 84 votes  
+**Votes:** 99 votes  
 **Abstract:** We investigate the potential of large language models (LLMs) to serve as efficient simulators for agentic search tasks in reinforcement learning (RL), thereby reducing dependence on costly interaction...
+
+**Categories:** `cs.CL`
+
+---
+
+### 3. [MEMORYLLM: Towards Self-Updatable Large Language Models](https://arxiv.org/abs/2402.04624)
+
+**Authors:** Xian Li, Yu Wang, Zheng Li et al.  
+**ArXiv ID:** `2402.04624`  
+**Published:** 2024-05-26  
+**Organizations:** UC, San Diego, UC, Los Angeles  
+**Votes:** 28 votes  
+**Abstract:** Existing Large Language Models (LLMs) usually remain static after deployment, which might make it hard to inject new knowledge into the model. We aim to build models containing a considerable portion ...
 
 **Categories:** `cs.CL`
 
@@ -63,7 +76,7 @@
 **ArXiv ID:** `2508.09736`  
 **Published:** 2025-08-15  
 **Organizations:** Shanghai Jiao Tong University, Zhejiang University et al.  
-**Votes:** 255 votes  
+**Votes:** 285 votes  
 **Abstract:** We introduce M3-Agent, a novel multimodal agent framework equipped with long-term memory. Like humans, M3-Agent can process real-time visual and auditory inputs to build and update its long-term memor...
 
 **Categories:** `cs.CV`
@@ -76,7 +89,7 @@
 **ArXiv ID:** `2508.10419`  
 **Published:** 2025-08-14  
 **Organizations:** N/A  
-**Votes:** 20 votes  
+**Votes:** 23 votes  
 **Abstract:** Narrative comprehension on long stories and novels has been a challenging domain attributed to their intricate plotlines and entangled, often evolving relations among characters and entities. Given th...
 
 **Categories:** `cs.CL`, `cs.AI`, `cs.LG`
@@ -89,7 +102,7 @@
 **ArXiv ID:** `2508.10104`  
 **Published:** 2025-08-13  
 **Organizations:** Inria, Meta AI Research et al.  
-**Votes:** 175 votes  
+**Votes:** 196 votes  
 **Abstract:** Self-supervised learning holds the promise of eliminating the need for manual data annotation, enabling models to scale effortlessly to massive datasets and larger architectures. By not being tailored...
 
 **Categories:** `cs.CV`, `cs.LG`
@@ -102,7 +115,7 @@
 **ArXiv ID:** `2508.09874`  
 **Published:** 2025-08-13  
 **Organizations:** Tsinghua University, Shanghai Jiao Tong University et al.  
-**Votes:** 50 votes  
+**Votes:** 57 votes  
 **Abstract:** Large Language Models (LLMs) have shown strong abilities in general language tasks, yet adapting them to specific domains remains a challenge. Current method like Domain Adaptive Pretraining (DAPT) re...
 
 **Categories:** `cs.CL`, `cs.AI`
@@ -115,7 +128,7 @@
 **ArXiv ID:** `2508.09101`  
 **Published:** 2025-08-12  
 **Organizations:** Tencent  
-**Votes:** 21 votes  
+**Votes:** 23 votes  
 **Abstract:** Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, with code generation emerging as a key area of focus. While numerous benchmarks have been proposed to eva...
 
 **Categories:** `cs.CL`, `cs.SE`
@@ -128,7 +141,7 @@
 **ArXiv ID:** `2508.08574`  
 **Published:** 2025-08-12  
 **Organizations:** Amazon Robotics  
-**Votes:** 9 votes  
+**Votes:** 11 votes  
 **Abstract:** We introduce DeepFleet, a suite of foundation models designed to support coordination and planning for large-scale mobile robot fleets. These models are trained on fleet movement data, including robot...
 
 **Categories:** `cs.RO`, `cs.MA`
@@ -141,7 +154,7 @@
 **ArXiv ID:** `2508.05629`  
 **Published:** 2025-08-07  
 **Organizations:** Shanghai Jiao Tong University, UC Berkeley et al.  
-**Votes:** 203 votes  
+**Votes:** 204 votes  
 **Abstract:** We present a simple yet theoretically motivated improvement to Supervised Fine-Tuning (SFT) for the Large Language Model (LLM), addressing its limited generalization compared to reinforcement learning...
 
 **Categories:** `cs.LG`
@@ -167,7 +180,7 @@
 **ArXiv ID:** `2507.13334`  
 **Published:** 2025-07-21  
 **Organizations:** University of Chinese Academy of Sciences, Tsinghua University et al.  
-**Votes:** 270 votes  
+**Votes:** 271 votes  
 **Abstract:** The performance of Large Language Models (LLMs) is fundamentally determined by the contextual information provided during inference. This survey introduces Context Engineering, a formal discipline tha...
 
 **Categories:** `cs.CL`
@@ -243,7 +256,7 @@ pose fundamental challenges for maintaining consistency...
 
 <div align="center">
 
-**Last Updated:** 2025-08-21 00:20:14 UTC
+**Last Updated:** 2025-08-22 00:21:09 UTC
 
 *This file is automatically generated by the [format script](./scripts/format.ts)*
 
